@@ -46,3 +46,22 @@
 25. Métodos principales de diccionarios
 26. Ejercicios de diccionarios
 
+    ## Excepciones
+
+27. Excepciones
+
+    ## Módulos y paquetes
+
+28. Introducción a los módulos y paquetes
+
+    ## Programación estructurada
+
+29. Introducción a las funciones
+30. Funciones recursivas
+31. Ejercicios con funciones
+
+    ## Programación orientada a objetos
+
+32. Introducción a la programación orientada a objetos
+33. Polimorfismo, herencia y delegación
+34. Ejercicio de programación orientada a objetos
