@@ -1,3 +1,7 @@
-# curso_programacion_python3
+# Curso: Introducción a la programación con Python3
 
-Curso introducción a la programación con python3
+1. Introducción al curso
+
+## Introducción a la programación
+
+2. Análisis de problemas y diseño de algoritmos
