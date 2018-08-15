@@ -24,8 +24,6 @@
 
     ## Estructuras de control
 
-Estructuras de control
-
 12. Estructura de control: Alternativas
 13. Ejercicios de alternativas
 14. Estructura de control: Repetitivas
