@@ -35,7 +35,7 @@
 17. Tipo de datos cadenas de caracteres
 18. Métodos principales de cadenas
 19. Ejercicios de cadenas
-20. Tipo de datos secuencia: listas
+20. Tipo de datos secuencia: Listas
 21. Métodos principales de listas
 22. Tipo de datos secuencia: Tuplas
 23. Ejercicios de listas
