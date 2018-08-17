@@ -6,8 +6,7 @@ La página principal para descargar las distintas versiones es:[www.python.org/d
 
 Python viene preinstalado de serie en la mayoría de las distribuciones GNU/Linux. Si no tenemos a nuestra disposición paquetes para instalarlo.
 
-* En Debian 8 Jessie, la versión por defecto es la 3.4.2
-* En Debian 9 Stretch, la versión es la 3.5.3-1
+* En Debian 9 Stretch, la versión es la 3.5.3
 * En Ububtu 18.04 Bionic, la versión es la 3.6.3
 
 [Para más información](https://docs.python.org/3/using/unix.html)
