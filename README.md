@@ -10,7 +10,7 @@
 
     ## Introducción a python3
 
-4. Instalación de python3
+4. [Instalación de python3](curso/u4)
 5. Escribir y ejecutar programas python. Estructura del programa
 
     ## Tipos de datos básicos
