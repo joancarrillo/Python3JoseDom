@@ -6,12 +6,12 @@
 
 1. [Análisis de problemas y diseño de algoritmos](curso/u1)
 2. [Introducción a los lenguajes de programación](curso/u2)
-3. Introducción a python3
+3. [Introducción a python3](curso/u3)
 
     ## Introducción a python3
 
 4. Instalación de python3
-5. Escibir y ejecutar programas python. Estructura del programa
+5. Escribir y ejecutar programas python. Estructura del programa
 
     ## Tipos de datos básicos
 
