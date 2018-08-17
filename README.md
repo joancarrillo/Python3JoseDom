@@ -5,7 +5,7 @@
     ## Introducción a la programación
 
 1. [Análisis de problemas y diseño de algoritmos](curso/u1)
-2. Introducción a los lenguajes de programación
+2. [Introducción a los lenguajes de programación](curso/u2)
 3. Introducción a python3
 
     ## Introducción a python3
