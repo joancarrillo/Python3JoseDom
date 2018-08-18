@@ -1,4 +1,4 @@
-# Variables
+# Trabajando con variables
 
 Una variables es un identificador que referencia a un valor. No hay que declarar la variable antes de usarla, el tipo de la variable será el mismo que el del valor al que hace referencia. Por lo tanto su tipo puede cambiar en cualquier momento:
 
