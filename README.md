@@ -17,53 +17,52 @@
     ## Tipos de datos básicos
 
 7. [Datos y tipos de datos](curso/u7)
-8. [Variables](curso/u8)
-9. [Entrada y salida estándar](curso/u9)
-10. Algunas funciones predefinidas
-11. Tipo de datos numéricos
-12. Tipo de dato booleanos
-13. Ejercicios de programas sencillos
+8. [Tipo de datos numéricos](curso/u8)
+0. Tipo de dato booleanos
+10. [Trabajando con variables](curso/u10)
+11. [Entrada y salida estándar](curso/u11)
+12. Ejercicios de programas sencillos
 
     ## Estructuras de control
 
-14. Estructura de control: Alternativas
-15. Ejercicios de alternativas
-16. Estructura de control: Repetitivas
-17. Uso específico de variables: contadores, acumuladores e indicadores
-18. Ejercicios de repetitivas
+13. Estructura de control: Alternativas
+14. Ejercicios de alternativas
+15. Estructura de control: Repetitivas
+16. Uso específico de variables: contadores, acumuladores e indicadores
+17. Ejercicios de repetitivas
 
     ## Tipos de datos secuencias
 
-19. Tipo de datos cadenas de caracteres
-20. Métodos principales de cadenas
-21. Ejercicios de cadenas
-22. Tipo de datos secuencia: Listas
-23. Métodos principales de listas
-24. Tipo de datos secuencia: Tuplas
-25. Ejercicios de listas
+18. Tipo de datos cadenas de caracteres
+19. Métodos principales de cadenas
+20. Ejercicios de cadenas
+21. Tipo de datos secuencia: Listas
+22. Métodos principales de listas
+23. Tipo de datos secuencia: Tuplas
+24. Ejercicios de listas
 
     ## Tipos de datos mapas
 
-26. Tipo de datos mapa: diccionario
-27. Métodos principales de diccionarios
-28. Ejercicios de diccionarios
+25. Tipo de datos mapa: diccionario
+26. Métodos principales de diccionarios
+27. Ejercicios de diccionarios
 
     ## Excepciones
 
-29. Excepciones
+28. Excepciones
 
     ## Módulos y paquetes
 
-30. Introducción a los módulos y paquetes
+29. Introducción a los módulos y paquetes
 
     ## Programación estructurada
 
-31. Introducción a las funciones
-32. Funciones recursivas
-33. Ejercicios con funciones
+30. Introducción a las funciones
+31. Funciones recursivas
+32. Ejercicios con funciones
 
     ## Programación orientada a objetos
 
-34. Introducción a la programación orientada a objetos
-35. Polimorfismo, herencia y delegación
-36. Ejercicio de programación orientada a objetos
+33. Introducción a la programación orientada a objetos
+34. Polimorfismo, herencia y delegación
+35. Ejercicio de programación orientada a objetos

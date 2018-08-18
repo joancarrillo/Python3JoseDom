@@ -1,47 +1,85 @@
-# Variables
+# Tipo de datos numéricos
 
-Una variables es un identificador que referencia a un valor. No hay que declarar la variable antes de usarla, el tipo de la variable será el mismo que el del valor al que hace referencia. Por lo tanto su tipo puede cambiar en cualquier momento:
+Python3 trabaja con tres tipos numéricos:
 
-	>>> var = 5
-	>>> type(var)
+* Enteros (int): Representan todos los números enteros (positivos, negativos y 0), sin parte decimal. En python3 este tipo no tiene limitación de espacio. 
+* Reales (float): Sirve para representar los números reales, tienen una parte decimal y otra  decimal. Normalmente se utiliza para su implementación un tipo `double` de C. 
+
+*Ejemplos*
+
+	>>> entero = 7
+	>>> type(entero)
 	<class 'int'>
-	>>> var = "hola"
-	>>> type(var)
-	<class 'str'>
+	>>> real = 7.2
+	>>> type (real)
+	<class 'float'
 
-## Creación, borrado y ámbito de variables
+## Operadores aritméticos
 
-Como hemos comentado anteriormente para crear una variable simplemente tenemos que utilizar un operador de asignación, el más utilizado `=` para que referencia un valor. Si queremos borrar la variable utilizamos la instrucción `del`. Por ejemplo:
+* `+`: Suma dos números
+* `-`: Resta dos números
+* `*`: Multiplica dos números
+* `/`: Divide dos números, el resultado es `float`.
+* `//`: División entera
+* `%`: Módulo o resto de la división
+* `**`: Potencia
+* `+`, `-`: Operadores unarios positivo y negativo
 
-	>>> a = 5
+## Funciones predefinidas que trabajan con números:
+
+* `abs(x)`: Devuelve al valor absoluto de un número.
+* `divmod(x,y)`: Toma como parámetro dos números, y devuelve una tubla con dos valores, la división entera, y el módulo o resto de la división.
+* `hex(x)`: Devuelve una cadena con la representación hexadecimal del número que recibe como parámetro.
+* `bin(x)`: Devuelve una cadena con la representación binaria del número que recibe como parámetro.
+* `pow(x,y): Devuelve la potencia de la base x elevedao al exponete y. Es similar al operador `**`.
+* `round(x,[y])`: Devuelve un número real (float) que es el redondeo del número recibido como parámetro, podemos indicar un parámetro opcional que indica el número de decimales en el redondeo.
+
+*Ejemplos*
+
+	>>> abs(-7)
+	7
+	>>> divmod(7,2)
+	(3, 1)
+	>>> hex(255)
+	'0xff'
+	>>> pow(2,3)
+	8
+	>>> round(7.567,1)
+	7.6
+
+## Conversión de tipos
+
+* `int(x)`: Convierte el valor a entero.
+* `float(x)`: Convierte el valor a float.
+
+Los valores que se reciben también pueden ser cadenas de caracteres (str).
+
+*Ejemplos*
+
+	>>> a=int(7.2)
 	>>> a
-	5
-	>>> del a
+	7
+	>>> type(a)
+	<class 'int'>
+	>>> a=int("345")
 	>>> a
+	345
+	>>> type(a)
+	<class 'int'>
+	>>> b=float(1)
+	>>> b
+	1.0
+	>>> type(b)
+	<class 'float'>
+	>>> b=float("1.234")
+	>>> b
+	1.234
+	>>> type(b)
+	<class 'float'>
+
+Por último si queremos convertir una cadena a entero, la cadena debe estar formada por caracteres numéricos, sino es así, obtenemos un error:
+
+	a=int("123.3")
 	Traceback (most recent call last):
 	  File "<stdin>", line 1, in <module>
-	NameError: name 'a' is not defined
-
-El ámbito de una variable se refiere a la zona del programa donde se ha definido y existe esa variable. Como primera aproximación las variables creadas dentro de funciones o clases tienen un ámbito local, es decir no existen fuera de la función o clase. Concretaremos cuando estudiamos estos aspectos más profundamente.
-
-## Modificación del valor de una variable
-
-En cualquier momento podemos cambiar el valor de una variable, asignándole un nuevo valor:
-
-	>>> a = 5
-	>>> a
-	5
-    >>> a = 8
-    >>> a
-    8
-
-También podemos modificar el valor de una variable, por ejemplo si queremos incrementarla en uno, podríamos usar:
-
-    >>> a = a + 1
-
-Aunque también podemos utilizar otro operador de asignación:
-
-    >>> a+=1
-
-Otros operadores de asignación: `+=`, `-=`, `*=`, `/=`, `%=`, `**=`, `//=`.
-
+	ValueError: invalid literal for int() with base 10: '123.3'
