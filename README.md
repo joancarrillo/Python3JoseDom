@@ -18,7 +18,7 @@
 
 7. [Datos y tipos de datos](curso/u7)
 8. [Variables](curso/u8)
-9. Entrada y salida estándar
+9. [Entrada y salida estándar](curso/u9)
 10. Algunas funciones predefinidas
 11. Tipo de datos numéricos
 12. Tipo de dato booleanos
