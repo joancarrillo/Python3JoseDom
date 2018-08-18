@@ -9,7 +9,7 @@ El tipo booleano o lógico se considera en python3 como un subtipo del tipo ente
 Cuando se evalúa una expresión, hay determinados valores que se interpretan como False:
 
 * `False`
-* Cualquier número 0. (0, 0.0, 0j)
+* Cualquier número 0. (0, 0.0)
 * Cualquier secuencia vacía ([], (), '')
 * Cualquier diccionario vacío ({})
 
