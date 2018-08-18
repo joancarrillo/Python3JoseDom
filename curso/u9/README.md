@@ -23,5 +23,7 @@ Los operadores booleanos se utilizan para operar sobre expresiones booleanas y s
 
 ## Operadores de comparación
 
+Los operadores de comparación, me permiten comparar dos valores y devuelven un valor booleano, dependiendo de lo que este comparando.
+
 `== != >= > <= <`
 

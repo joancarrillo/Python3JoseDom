@@ -21,7 +21,8 @@
 9. [Tipo de dato booleanos](curso/u9)
 10. [Trabajando con variables](curso/u10)
 11. [Entrada y salida estándar](curso/u11)
-12. Ejercicios de programas sencillos
+12. Introducción a las cadenas de caracteres
+13. Ejercicios de programas sencillos
 
     ## Estructuras de control
 
