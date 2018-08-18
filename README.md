@@ -16,10 +16,10 @@
 
     ## Tipos de datos básicos
 
-7. Datos y tipos de datos
+7. [Datos y tipos de datos](curso/u7)
 8. Variables
 9. Entrada y salida estándar
-10. algunas funciones predefinidas
+10. Algunas funciones predefinidas
 11. Tipo de datos numéricos
 12. Tipo de dato booleanos
 13. Ejercicios de programas sencillos
