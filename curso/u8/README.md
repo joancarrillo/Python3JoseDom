@@ -9,7 +9,7 @@ Una variables es un identificador que referencia a un valor. No hay que declarar
 	>>> type(var)
 	<class 'str'>
 
-## creación, borrado y ámbito de variables
+## Creación, borrado y ámbito de variables
 
 Como hemos comentado anteriormente para crear una variable simplemente tenemos que utilizar un operador de asignación, el más utilizado `=` para que referencia un valor. Si queremos borrar la variable utilizamos la instrucción `del`. Por ejemplo:
 
