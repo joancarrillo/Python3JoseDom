@@ -26,14 +26,11 @@ El caracter `\n` es el retorno de carro (los siguientes caracteres se escriben e
 
 Una variables es un identificador que referencia a un valor. Para que una variable referencie a un valor se utiliza el operador de asignación `=`.
 
-El nombre de una variable, ha de empezar por una letra o por el carácter guión bajo, seguido de letras, números o guiones bajos. No hay que declarar la variable antes de usarla, el tipo de la variable será el mismo que el del valor al que hace referencia. Por lo tanto su tipo puede cambiar en cualquier momento:
-
-	>>> var = 5
-	>>> type(var)
-	<class 'int'>
-	>>> var = "hola"
-	>>> type(var)
-	<class 'str'>
+El nombre de una variable, ha de empezar por una letra o por el carácter guión bajo, seguido de letras, números o guiones bajos. 
+	
+    >>> var = 5
+	>>> var
+    5
 
 Hay que tener en cuanta que python distingue entre mayúsculas y minúsculas en el nombre de una variable, pero se recomienda usar sólo minúsculas.
 
