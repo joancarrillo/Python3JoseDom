@@ -33,3 +33,8 @@ Algunas de las operaciones que puedo realizar con las cadenas de caracteres son:
         >>> cadena[3]
         'é'
 
+* Para obtener la longitud de una cadena (número de caracteres que tiene), utilizamos la función `len`:
+
+        >>> cadena = "josé"
+        >>> len(cadena)
+        4
