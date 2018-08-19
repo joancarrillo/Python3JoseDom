@@ -83,3 +83,12 @@ Por último si queremos convertir una cadena a entero, la cadena debe estar form
 	Traceback (most recent call last):
 	  File "<stdin>", line 1, in <module>
 	ValueError: invalid literal for int() with base 10: '123.3'
+
+# Otras operaciones
+
+Quizás eches en falta más operaciones que podemos realizar sobre los números. En el módulo `math` encontramos muchas de estas operaciones. Para utilizarlas vamos  a importar el módulo, por ejemplo para realizar una raíz cuadrada:
+
+	>>> import math
+	>>> math.sqrt(9)
+	3.0
+
