@@ -7,9 +7,9 @@ euro1 = int(input("Monedas de 1 euro:"))
 cent50 = int(input("Monedas de 50 céntimos:"))
 cent20 = int(input("Monedas de 20 céntimos:"))
 cent10 = int(input("Monedas de 10 céntimos:"))
-# Calular Euros (sumar monedas de 2 euros * 2 + monedas de 1 euro
+# Calcular Euros (sumar monedas de 2 euros * 2 + monedas de 1 euro
 total_euros = euro2 * 2 + euro1
-# Calcular centimos (monedas de 50c * 50 + monedas de 30c * 30 + moneda de 20c * 20 `moneda de 10c * 10
+# Calcular céntimos (monedas de 50c * 50 + monedas de 30c * 30 + moneda de 20c * 20 `moneda de 10c * 10
 total_centimos = cent50 * 50 + cent20 * 20 + cent10 * 10
 #  Convertir céntimos a euros (división entera entre 100)
 total_euros = total_euros + total_centimos // 100
