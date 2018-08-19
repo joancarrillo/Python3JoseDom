@@ -22,15 +22,16 @@
 10. [Trabajando con variables](curso/u10)
 11. [Entrada y salida estándar](curso/u11)
 12. Introducción a las cadenas de caracteres
-13. [Ejercicios estructura secuencial](curso/u13)
+13. Pasando de pseudocódigo a python3 I
+14. [Ejercicios estructura secuencial](curso/u13)
 
     ## Estructuras de control
 
-13. Estructura de control: Alternativas
-14. Ejercicios de alternativas
-15. Estructura de control: Repetitivas
-16. Uso específico de variables: contadores, acumuladores e indicadores
-17. Ejercicios de repetitivas
+15. Estructura de control: Alternativas
+16. Ejercicios de alternativas
+17. Estructura de control: Repetitivas
+18. Uso específico de variables: contadores, acumuladores e indicadores
+19. Ejercicios de repetitivas
 
     ## Tipos de datos secuencias
 
