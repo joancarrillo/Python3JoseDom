@@ -23,7 +23,7 @@
 11. [Entrada y salida estándar](curso/u11)
 12. Introducción a las cadenas de caracteres
 13. Pasando de pseudocódigo a python3 I
-14. [Ejercicios estructura secuencial](curso/u13)
+14. [Ejercicios estructura secuencial](curso/u14)
 
     ## Estructuras de control
 
