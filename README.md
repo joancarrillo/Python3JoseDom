@@ -22,7 +22,7 @@
 10. [Trabajando con variables](curso/u10)
 11. [Entrada y salida estándar](curso/u11)
 12. Introducción a las cadenas de caracteres
-13. Ejercicios de programas sencillos
+13. [Ejercicios estructura secuencial](curso/u13)
 
     ## Estructuras de control
 
