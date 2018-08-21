@@ -1,6 +1,6 @@
 # Curso: Introducción a la programación con Python3
 
-0. Introducción al curso
+* [Introducción al curso](curso/u0)
 
     ## Introducción a la programación
 
