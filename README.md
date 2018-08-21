@@ -27,7 +27,7 @@
 
     ## Estructuras de control
 
-15. Estructura de control: Alternativas
+15. [Estructura de control: Alternativas](curso/u15)
 16. Ejercicios de alternativas
 17. Estructura de control: Repetitivas
 18. Uso específico de variables: contadores, acumuladores e indicadores
