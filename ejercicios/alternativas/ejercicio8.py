@@ -5,27 +5,17 @@
 # En caso de que se cumpla lo mismo, pero el sexo sea 'M', debe imprimir 'POSIBLE'. 
 # Si no se cumplen dichas condiciones se debe mostrar 'NO ACEPTADA'.
 
-Proceso ComprobarNotaEdadSexo
-	Definir nota,edad como Entero;
-	Definir sexo como Cadena;
-	Escribir Sin Saltar "Introduce la nota:";
-	Leer nota;
-	Escribir Sin Saltar "Introduce la edad:";
-	Leer edad;
-	Escribir Sin Saltar "Introduce el sexo (F/M):";
-	Leer sexo;
-	Si nota>=5 Y edad>=18 Entonces
-		Si Mayusculas(sexo)="F" Entonces
-			Escribir "Aceptada";
-		SiNo
-			Si Mayusculas(sexo)="M" Entonces
-				Escribir "Posible";
-			SiNo
-				Escribir "No Aceptada";
-			FinSi
-		FinSi
-	SiNo
-		Escribir "No Aceptada";
-	FinSi
+nota = int(input("Introduce la nota:"))
+edad = int(input("Introduce la edad:"))
+sexo = input("Introduce el sexo (F/M):")
+if nota >= 5 and edad >= 18:
+	if sexo.upper() == "F":
+		print("Aceptada")
+	else:
+		if sexo.upper() == "M":
+			print("Posible")
+		else:
+			print("No Aceptada")
+else:
+	print("No Aceptada")
 	
-FinProceso
