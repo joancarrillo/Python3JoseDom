@@ -8,7 +8,7 @@ La estructura `for` nos permite recorrer los elementos de una secuencia (lista, 
 
 Escribir en pantalla del 1 al 10.
 
-En pseudocóidgo:
+En pseudocódigo:
 
 	Proceso Contar
 		Definir var como Entero;
@@ -26,7 +26,14 @@ En python3:
 
 Escribir en pantalla de 10 al 1.
 
-En pseudocóidgo:
+En pseudocódigo:
+
+	Proceso ContarDescesdente
+		Definir var como Entero;
+		Para var<-10 Hasta 1 Con Paso -1 Hacer
+			Escribir Sin Saltar var," ";
+		FinPara
+	FinProceso
 
 En python3:
 
@@ -37,7 +44,7 @@ En python3:
 
 Escribir los número pares desde el 2 al 10.
 
-En pseudocóidgo:
+En pseudocódigo:
 
 	Proceso ContarPares
 		Definir var como Entero;
