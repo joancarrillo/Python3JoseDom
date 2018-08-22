@@ -45,7 +45,7 @@ Veamos un programa similar al anterior pero que tiene otra condición de salida:
 	
 Deja de ejecutar las restantes instrucciones del bucle y vuelve a iterar.
 
-Aunque podemos de hacerlo de varias formas, vamos a usar la instrucción `continue` para mostrar los número pares del 10 al 10:
+Aunque podemos de hacerlo de varias formas, vamos a usar la instrucción `continue` para mostrar los número pares del 1 al 10:
 
     cont = 0
     while cont<10:
