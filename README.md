@@ -30,7 +30,7 @@
 15. [Estructura de control: Alternativas](curso/u15)
 16. [Ejercicios estructura alternativas](curso/u16)
 17. [Estructuras de control repetitivas: while](curso/u17)
-18. Estructuras de control repetitivas: for
+18. [Estructuras de control repetitivas: for](curso/u18)
 19. Uso específico de variables: contadores, acumuladores e indicadores
 20. Ejercicios de repetitivas
 

@@ -50,6 +50,17 @@ En Python3:
 
     print("Hola",nombre)
 
+## Escribir sin saltar a otra línea
+
+En pseudocódigo:
+
+    Escribir Sin Saltar var," ";
+
+En Python3:
+
+    print(var," ",end="")
+
+
 ## Asignar valor a una variable
 
 En pseudocódigo:
