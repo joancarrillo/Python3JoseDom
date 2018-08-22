@@ -1,4 +1,4 @@
-# Estructuras repetitivas: Mientras
+# Estructuras de control repetitivas: while
 
 La instrucción `while` ejecuta una secuencia de instrucciones mientras una condición sea verdadera.
 
