@@ -25,7 +25,7 @@ Introducir 5 número y contar los números pares.
 	cont = 0;
 	for var in range(1,6):
 		num = int(input("Dime un número:"))
-		if num % 2 = 0:
+		if num % 2 == 0:
 			cont = cont + 1
 	print("Has introducido ",cont," números pares.")
 
@@ -45,7 +45,7 @@ Introducir 5 número y sumar los números pares.
 	suma = 0;
 	for var in range(1,6):
 		num = int(input("Dime un número:"))
-		if num % 2 = 0:
+		if num % 2 == 0:
 			suma = suma + num
 	print("La suma de los números pares es ",suma)
 
@@ -68,7 +68,7 @@ Introducir 5 número e indicar si se ha introducido algún número par.
 	indicador  =  False;
 	for var in range(1,6):
 		num = int(input("Dime un número:"))
-		if num % 2 = 0:
+		if num % 2 == 0:
 			indicador  = True
 	if indicador:
 		print("Has introducido algún número par")
