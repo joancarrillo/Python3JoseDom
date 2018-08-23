@@ -32,7 +32,7 @@
 17. [Estructuras de control repetitivas: while](curso/u17)
 18. [Estructuras de control repetitivas: for](curso/u18)
 19. [Uso específico de variables: contadores, acumuladores e indicadores](curso/u19)
-20. Ejercicios de repetitivas
+20. [Ejercicios estructuras repetitivas](curso/u20)
 
     ## Tipos de datos secuencias
 
