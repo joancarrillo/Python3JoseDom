@@ -37,7 +37,7 @@
     ## Tipos de datos secuencias
 
 21. [Tipo de datos cadenas de caracteres](curso/u21)
-22. Métodos principales de cadenas
+22. [Métodos principales de cadenas](curso/u22)
 23. Ejercicios de cadenas
 24. Tipo de datos secuencia: Listas
 25. Métodos principales de listas
