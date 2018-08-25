@@ -42,6 +42,12 @@ Aunque las cadenas de caracteres tiene muchos métodos definidos, vamos a estudi
 	>>> print(cad.upper())
 	HOLA MUNDO
 
+`swapcase()`: devuelve una cadena nueva con las minúsculas convertidas a mayúsculas y viceversa.
+
+    >>> cad = "Hola Mundo"
+    >>> print(cad.swapcase())
+    hOLA mUNDO
+
 `title()`: Devuelve una cadena con los primeros caracteres en mayúsculas de cada palabra.
 
 	>>> cad = "hola mundo"
