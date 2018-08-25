@@ -36,13 +36,13 @@
 
     ## Tipos de datos secuencias
 
-18. Tipo de datos cadenas de caracteres
-19. Métodos principales de cadenas
-20. Ejercicios de cadenas
-21. Tipo de datos secuencia: Listas
-22. Métodos principales de listas
-23. Tipo de datos secuencia: Tuplas
-24. Ejercicios de listas
+21. [Tipo de datos cadenas de caracteres](curso/u21)
+22. Métodos principales de cadenas
+23. Ejercicios de cadenas
+24. Tipo de datos secuencia: Listas
+25. Métodos principales de listas
+26. Tipo de datos secuencia: Tuplas
+27. Ejercicios de listas
 
     ## Tipos de datos mapas
 
