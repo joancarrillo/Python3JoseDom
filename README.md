@@ -42,9 +42,9 @@
 24. [Ejercicios cadena de caracteres](curso/u24)
 25. [Tipo de datos secuencia: Listas](curso/u25)
 26. [Las listas son mutables](curso/u26)
-27. Métodos principales de listas
-27. Tipo de datos secuencia: Tuplas
-28. Ejercicios de listas
+27. [Métodos principales de listas](curso/u27)
+28. Tipo de datos secuencia: Tuplas
+29. Ejercicios de listas
 
     ## Tipos de datos mapas
 
