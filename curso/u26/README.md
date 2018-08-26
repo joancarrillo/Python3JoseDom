@@ -1,8 +1,8 @@
-# Métodos principales de listas
+# Las listas son mutables
 
 Al igual que las cadenas el tipo de datos lista es una **clase**, cada vez que creamos una variable de la clase lista estamos creando un **objeto** que además de guardar un conjunto de datos, posee un conjunto de **métodos** que nos permiten trabajar con la lista.
 
-## Las listas son mutables
+## ¿Qué significa que las listas son mutables?
 
 Los elementos de las listas se pueden modificar:
 
