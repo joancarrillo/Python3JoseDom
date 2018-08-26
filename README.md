@@ -43,7 +43,7 @@
 25. [Tipo de datos secuencia: Listas](curso/u25)
 26. [Las listas son mutables](curso/u26)
 27. [Métodos principales de listas](curso/u27)
-28. Tipo de datos secuencia: Tuplas
+28. [Tipo de datos secuencia: Tuplas](curso/u28)
 29. Ejercicios de listas
 
     ## Tipos de datos mapas
