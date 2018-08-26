@@ -39,11 +39,11 @@
 21. [Tipo de datos cadenas de caracteres](curso/u21)
 22. [Las cadenas de caracteres son inmutables](curso/u22)
 23. [Métodos principales de cadenas](curso/u23)
-23. [Ejercicios cadena de caracteres](curso/u23)
-24. [Tipo de datos secuencia: Listas](curso/u24)
-25. [Métodos principales de listas](curso/u25)
-26. Tipo de datos secuencia: Tuplas
-27. Ejercicios de listas
+24. [Ejercicios cadena de caracteres](curso/u24)
+25. [Tipo de datos secuencia: Listas](curso/u25)
+26. [Métodos principales de listas](curso/u26)
+27. Tipo de datos secuencia: Tuplas
+28. Ejercicios de listas
 
     ## Tipos de datos mapas
 
