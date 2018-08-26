@@ -45,3 +45,12 @@ Tenemos más operaciones que podemos realizar:
         >>> cadena[::-1]
         'acitámrofni'
 
+## Conversión de tipos
+
+Podemos convertir cualquier número en una cadena de caracteres utilizando la función `str`:
+
+        >>> cad = str(7.8)
+        >>> type(cad)
+        <class 'str'>
+        >>> print(cad)
+        7.8
