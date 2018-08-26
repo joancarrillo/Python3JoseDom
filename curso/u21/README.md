@@ -32,6 +32,16 @@ Tenemos más operaciones que podemos realizar:
 
 * Slice (rebanada): Puedo obtener una subcadena de la cadena de caracteres. Se indica el carácter inicial, y el carácter final, además podemos indicar opcionalmente un salto. Si no se indica el carácter inicial se supone que es desde el primero, sino se indica el carácter final se supone que es hasta el final. Por último podemos usar salto negativo para empezar a contar desde el final.
 
+Como resumen de las distintas posibilidades podemos indicar:
+
+* `cadena[start:end]` 	  # Elementos desde la posición start hasta end-1
+* `cadena[start:]`    	  # Elementos desde la posición start hasta el final
+* `cadena[:end]`      	  # Elementos desde el principio hata la posición end-1
+* `cadena[:]` 	 	  # Todos Los elementos	    
+* `cadena[start:end:step]` # Igual que el anterior pero dando step saltos.
+
+Veamos algunos ejemplos:
+
         >>> cadena[2:5]
         'for'
         >>> cadena[2:7:2]
