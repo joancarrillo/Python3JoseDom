@@ -1,107 +1,45 @@
-# Tipo de datos secuencia: listas
+# Ejercicios cadena de caracteres
 
+### Ejercicio 1
 
-Si queremos gaurdar un conjunto de valores, en pseudocódigo utilizamos loas arreglos. Un array (o arreglo) es una estructura de datos con elementos homogéneos, del mismo tipo, numérico o alfanumérico, reconocidos por un nombre en común.
+Escribir por pantalla cada carácter de una cadena introducida por teclado.
 
-Hay muchos lenguajes que implementan los arrays, pero esta estructura tiene dos limitaciones: son homogéneas, es decir sólo se pueden guardar datos del mismo tipo, y son estáticas, a la hora de declarar se indican las posiciones y la longitud del array no se puede cambiar durante la ejecución del programa.
+### Ejercicio 2
 
-En Python no existen los arrays, tenemos varios tipos de datos que nos permiten guardar conjuntos de informaciones. En esta unidad vamos a estudiar las **Listas**. Las listas (`list`) me permiten guardar un conjunto de datos que se pueden repetir y que pueden ser de distintos tipos. Además esta estructura es dinámica, en cualquier momento de la ejecución del programa puedo añadir o eliminar elementos de la lista.
+Realizar un programa que comprueba si una cadena leída por teclado comienza por una subcadena introducida por teclado.
 
-## Construcción de una lista 
+### Ejercicio 3
 
-Para crear una lista puedo usamos los caracteres `[` y `]`:
-	>>> lista1 = []
-	>>> lista2 = ["a",1,True]
+Pide una cadena y un carácter por teclado (valida que sea un carácter) y muestra cuantas veces aparece el carácter en la cadena.
 
-## Operaciones básicas con listas
+### Ejercicio 4
 
-Las listas son secuencias, a las que podemos realizar las siguientes operaciones. Vamos a ver distintos ejemplos partiendo de la siguiente lista:
+Suponiendo que hemos introducido una cadena por teclado que representa una frase (palabras separadas por espacios), realiza un programa que cuente cuantas palabras tiene.
 
-	lista = [1,2,3,4,5,6]
+### Ejercicio 5 
 
-* Las listas se pueden recorrer:
-	
-		>>> for num in lista:
-		...   print(num,end="")
-		123456
+Si tenemos una cadena con un nombre y apellidos, realizar un programa que muestre las iniciales en mayúsculas.
 
-* Operadores de pertenencia: Se puede comprobar si un elemento pertenece o no a una lista con los operadores `in` y `not in`.
+### Ejercicio 6
 
-		>>> 2 in lista
-		True
-		>>> 8 not in lista
-		True
+Realizar un programa que dada una cadena de caracteres por caracteres, genere otra cadena resultado de invertir la primera.
 
-* Concatenación: El operador `+` me permite unir datos de tipos listas:
+### Ejercicio 7
 
-		>>> lista + [7,8,9]
-		[1, 2, 3, 4, 5, 6, 7, 8, 9]
+Pide una cadena y dos caracteres por teclado (valida que sea un carácter), sustituye la aparición del primer carácter en la cadena por el segundo carácter.
 
-* Repetición: El operador `*` me permite repetir un dato de una lista:
+### Ejercicio 8
 
-		>>> lista * 2
-		[1, 2, 3, 4, 5, 6, 1, 2, 3, 4, 5, 6]
+Realizar un programa que lea una cadena por teclado y convierta las mayúsculas a minúsculas y viceversa.
 
-* Indexación: Puedo obtener el dato de una secuencia indicando la posición en la secuencia.
+### Ejercicio 9
 
-		>>> lista[3]
-		4
+Realizar un programa que compruebe si una cadena **contiene** una subcadena. Las dos cadenas se introducen por teclado.
 
-    Cada elemento tiene un índice, empezamos a contar por el elemento en el índice 0. Si intento acceder a un índice que corresponda a un elemento que no existe obtenemos una excepción `IndexError`.
+### Ejercicio 10
 
-		>>> lista1[12]
-		Traceback (most recent call last):
-		  File "<stdin>", line 1, in <module
-		IndexError: list index out of range	
+Introducir una cadena de caracteres e indicar si es un palíndromo. Una palabra palíndroma es aquella que se lee igual adelante que atrás.
 
-	Se pueden utilizar índices negativos:
+# Ejercicios resueltos
 
-		>>> lista[-1]
-		6
-	
-* Slice (rebanada): Puedo obtener una subsecuencia de los datos de una lista. Funciona de forma similar como en las cadenas, veamos algunos ejemplos:
-
-		>>> lista[2:4]
-        [3, 4]
-        >>> lista[1:4:2]
-        [2, 4]
-        >>> lista[:5]
-        [1, 2, 3, 4, 5]
-        >>> lista[5:]
-        [6, 1, 2, 3, 4, 5, 6]
-        >>> lista[::-1]
-        [6, 5, 4, 3, 2, 1, 6, 5, 4, 3, 2, 1]
-
-
-## Funciones predefinidas que trabajan con listas
-
-	>>> lista1 = [20,40,10,40,50]
-	>>> len(lista1)
-	5
-	>>> max(lista1)
-	50
-	>>> min(lista1)
-	10
-	>>> sum(lista1)
-	150
-	>>> sorted(lista1)
-	[10, 20, 30, 40, 50]
-	>>> sorted(lista1,reverse=True)
-	[50, 40, 30, 20, 10]
-
-## Listas multidimensionales
-
-A la hora de definir las listas hemos indicado que podemos guardar en ellas datos de cualquier tipo, y evidentemente podemos guardar listas dentro de listas. 
-
-	>>> tabla = [[1,2,3],[4,5,6],[7,8,9]]
-	>>> tabla[1][1]
-	5
-
-	>>> for fila in tabla:
-	...   for elem in fila:
-	...      print(elem,end="")
-	...   print()
-	 
-	123
-	456
-	789
+[Ejercicios cadenas de caracteres](../../ejercicios/cadenas)

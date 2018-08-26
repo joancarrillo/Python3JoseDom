@@ -1,45 +1,109 @@
-# Ejercicios cadena de caracteres
+# Métodos principales de cadenas
 
-### Ejercicio 1
+Aunque las cadenas de caracteres tiene muchos métodos definidos, vamos a estudiar los más importantes:
 
-Escribir por pantalla cada carácter de una cadena introducida por teclado.
+## Métodos de formato
 
-### Ejercicio 2
+`capitalize()` nos permite devolver la cadena con el primer carácter en mayúsculas.
 
-Realizar un programa que comprueba si una cadena leída por teclado comienza por una subcadena introducida por teclado.
+	>>> cad = "hola, como estás?"
+	>>> print(cad.capitalize())
+	Hola, como estás?
 
-### Ejercicio 3
+`lower()` y `upper()` convierte la cadena de caracteres en minúsculas y mayúsculas  respectivamente.
 
-Pide una cadena y un carácter por teclado (valida que sea un carácter) y muestra cuantas veces aparece el carácter en la cadena.
+	>>> cad = "Hola Mundo" 
+	>>> print(cad.lower())
+	hola mundo
 
-### Ejercicio 4
+	>>> cad = "hola mundo"
+	>>> print(cad.upper())
+	HOLA MUNDO
 
-Suponiendo que hemos introducido una cadena por teclado que representa una frase (palabras separadas por espacios), realiza un programa que cuente cuantas palabras tiene.
+`swapcase()`: devuelve una cadena nueva con las minúsculas convertidas a mayúsculas y viceversa.
 
-### Ejercicio 5 
+    >>> cad = "Hola Mundo"
+    >>> print(cad.swapcase())
+    hOLA mUNDO
 
-Si tenemos una cadena con un nombre y apellidos, realizar un programa que muestre las iniciales en mayúsculas.
+`title()`: Devuelve una cadena con los primeros caracteres en mayúsculas de cada palabra.
 
-### Ejercicio 6
+	>>> cad = "hola mundo"
+	>>> print(cad.title())
+	Hola Mundo
 
-Realizar un programa que dada una cadena de caracteres por caracteres, genere otra cadena resultado de invertir la primera.
+## Métodos de búsqueda
 
-### Ejercicio 7
+`count()`: Es un método al que indicamos como parámetro una subcadena y cuenta cuantas apariciones hay de esa subcadena en la cadena.
 
-Pide una cadena y dos caracteres por teclado (valida que sea un carácter), sustituye la aparición del primer carácter en la cadena por el segundo carácter.
+	>>> cad = "bienvenido a mi aplicación"
+	>>> cad.count("a")
+	3
 
-### Ejercicio 8
+Además podemos indicar otro parámetro para indicar la posición desde la que queremos iniciar la búsqueda. Y otro parámetro optativo para indicar la posición final de búsqueda.
 
-Realizar un programa que lea una cadena por teclado y convierta las mayúsculas a minúsculas y viceversa.
+	>>> cad.count("a",16)
+	2
+	>>> cad.count("a",10,16)
+	1
 
-### Ejercicio 9
+`find()` nos devuelve la posición de la subcadena que hemos indicado como parámetro. Sino se encuentra se devuelve -1.
 
-Realizar un programa que compruebe si una cadena **contiene** una subcadena. Las dos cadenas se introducen por teclado.
+	>>> cad.find("mi")
+	13
+	>>> cad.find("hola")
+	-1
 
-### Ejercicio 10
+## Métodos de validación
 
-Introducir una cadena de caracteres e indicar si es un palíndromo. Una palabra palíndroma es aquella que se lee igual adelante que atrás.
+`startswith()` nos indica con un valor lógico si la cadena empieza por la subcadena que hemos indicado como parámetro. Podemos indicar también con otro parámetro la psoición donde tiene que buscar.
 
-# Ejercicios resueltos
+	>>> cad.startswith("b")
+	True
+	>>> cad.startswith("m")
+	False
+	>>> cad.startswith("m",13)
+	True
 
-[Ejercicios cadenas de caracteres](../../ejercicios/cadenas)
+`endswith()` igual que la anterior pero indica si la cadena termina con la subcadena indicada. En este caso, se puede indicar la posición de inicio y final de búsqueda.
+
+	>>> cad.endswith("ción")
+	True
+	>>> cad.endswith("ción",0,10)
+	False
+	>>> cad.endswith("nido",0,10)
+	True
+
+Otras funciones de validación: `isdigit()`, `islower()`, `isupper()`, `isspace()`, `istitle()`,...
+
+## Métodos de sustitución
+
+`replace()`: Devuelve una cadena donde se ha sustituido las apariciones de la primera subcadena indicada por la segunda subcadena indicada como parámtero.
+
+	>>> buscar = "nombre apellido"
+	>>> reemplazar_por = "Juan Pérez" 
+	>>> print ("Estimado Sr. nombre apellido:".replace(buscar, reemplazar_por)) 
+	Estimado Sr. Juan Pérez:
+
+`strip()`: DEvuelve una cadena donde se han quitado los espacios del principio y del final. Si indicamos una subcadena como parámtro quitará dicha subcadena del principio y del final.
+
+	>>> cadena = "   www.eugeniabahit.com   " 
+	>>> print(cadena.strip())
+	www.eugeniabahit.com
+	>>> cadena="00000000123000000000"
+	>>> print(cadena.strip("0"))
+	123
+
+
+## Métodos de unión y división
+
+aunque todavia no lo hemos estudiado, lel método `split()` nos permite convertir una cadena en una lista. Lo usaremos más adelante.
+
+	>>> print(hora.split(":"))
+	['12', '23', '12']
+
+`splitlines()`: Nos permite separar las líneas que hay en una cadena (indicada con el carácter `\n`) en una lista.
+
+	>>> texto = "Linea 1\nLinea 2\nLinea 3" 
+	>>> print(texto.splitlines())
+	['Linea 1', 'Linea 2', 'Linea 3']
