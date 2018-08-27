@@ -25,8 +25,6 @@ Las listas son secuencias, a las que podemos realizar las siguientes operaciones
 		...   print(num,end="")
 		123456
 
-	## Recorriendo varias secuencias. Función zip()
-
 	Con la instrucción `for` podemos recorrer más de una listas, utilizando la función `zip`. Veamos un ejemplo:
 
 		>>> lista2 = ["a","b","c","d","e"]
