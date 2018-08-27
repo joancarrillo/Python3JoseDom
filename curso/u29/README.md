@@ -37,7 +37,7 @@ Queremos guardar los nombres y la edades de los alumnos de un curso. Realiza un 
 
 ### Ejercicio 9
 
-Queremos guardar la temperatura mínima y máxima de 5 días. realiza un programa que de la siguiente información:
+Queremos guardar la temperatura mínima y máxima de 5 días. Realiza un programa que de la siguiente información:
 
 * La temperatura media de cada día
 * Los días con menos temperatura
