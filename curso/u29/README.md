@@ -128,6 +128,16 @@ Vamos a crear un programa que tenga el siguiente menú:
 
 Crear un programa que añada números a una lista hasta que introducimos un número negativo. A continuación debe crear una nueva lista igual que la anterior pero eliminando los números duplicados. Muestra esta segunda lista para comprobar que hemos eliminados los duplicados.
 
+### Ejercicio 18
+
+Escriba un programa que permita crear una lista de palabras y que, a continuación de tres opciones:
+
+* Contar: Me pide una cadena, y me dice cuantas veces aparece en la lista
+* Modificar: Me pide una cadena, y otra cadena a modificar, y modifica todas alas apariciones de la primera por la segunda en la lista.
+* Eliminar: Me pide una cadena, y la elimina de la lista.
+* Mostrar: Muestra la lista de cadenas
+* Terminar
+
 # Ejercicios resueltos
 
 [Ejercicios de arreglos](../../ejercicios/arreglos)
