@@ -47,7 +47,7 @@ Queremos guardar la temperatura mínima y máxima de 5 días. Realiza un program
 
 Diseñar el algoritmo correspondiente a un  programa, que:
 
-* Crea una tabla bidimensional de longitud 5x5 y nombre 'matriz'.
+* Crea una tabla (lista con dos dimensiones) de 5x5 enteros.
 * Carga la tabla con valores numéricos enteros.
 * Suma todos los elementos de cada fila y todos los elementos de cada columna visualizando los resultados en pantalla.
 
