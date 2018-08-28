@@ -124,6 +124,10 @@ Vamos a crear un programa que tenga el siguiente menú:
 8. Mostrar números: Muestra los números de la lista
 9. Salir
 
+### Ejercicio 17
+
+Crear un programa que añada números a una lista hasta que introducimos un número negativo. A continuación debe crear una nueva lista igual que la anterior pero eliminando los números duplicados. Muestra esta segunda lista para comprobar que hemos eliminados los duplicados.
+
 # Ejercicios resueltos
 
 [Ejercicios de arreglos](../../ejercicios/arreglos)
