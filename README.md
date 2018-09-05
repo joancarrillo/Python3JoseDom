@@ -48,9 +48,9 @@
 
     ## Tipos de datos mapas
 
-25. Tipo de datos mapa: diccionario
-26. Métodos principales de diccionarios
-27. Ejercicios de diccionarios
+30. [Tipo de datos mapa: diccionario](curso/u30)
+31. Métodos principales de diccionarios
+32. Ejercicios de diccionarios
 
     ## Excepciones
 
