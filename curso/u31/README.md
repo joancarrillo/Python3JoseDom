@@ -1,6 +1,6 @@
 # Métodos principales de diccionarios
 
-## Métodos de eliminación: clear
+## Métodos de eliminación
 
 `clear()`: Elimina los elementos de un diccionario.
 
