@@ -31,4 +31,4 @@ Implementar el programa con un diccionario.
 
 # Ejercicios resueltos
 
-[Ejercicios de arreglos](../../ejercicios/diccionarios)
+[Ejercicios de diccionarios](../../ejercicios/diccionarios)
