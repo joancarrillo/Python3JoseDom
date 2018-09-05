@@ -1,6 +1,6 @@
 # Tipo de datos mapa: diccionario
 
-Los diccionarios son tipos de datos que nos permiten guardar valores, a los que se puede acceder por medio de una clave (una cadena de caracteres). Son tipos de datos mutables y los campos no tienen asignado orden.
+Los diccionarios son tipos de datos que nos permiten guardar valores, a los que se puede acceder por medio de una clave (una cadena de caracteres o un número). Son tipos de datos mutables y los campos no tienen asignado orden.
 
 ## Definición de diccionarios. 
 

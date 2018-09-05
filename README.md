@@ -50,7 +50,7 @@
 
 30. [Tipo de datos mapa: diccionario](curso/u30)
 31. [Métodos principales de diccionarios](curso/u31)
-32. Ejercicios de diccionarios
+32. [Ejercicios de diccionarios](curso/u32)
 
     ## Excepciones
 
