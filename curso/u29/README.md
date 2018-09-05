@@ -140,4 +140,4 @@ Escriba un programa que permita crear una lista de palabras y que, a continuaci√
 
 # Ejercicios resueltos
 
-[Ejercicios de arreglos](../../ejercicios/arreglos)
+[Ejercicios de listas](../../ejercicios/listas)

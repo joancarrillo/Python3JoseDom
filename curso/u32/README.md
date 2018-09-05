@@ -28,3 +28,7 @@ Escribir un programa que implemente una agenda. En la agenda se podrán guardar 
 * Listar: Nos muestra todos los contactos de la agenda.
 
 Implementar el programa con un diccionario.
+
+# Ejercicios resueltos
+
+[Ejercicios de arreglos](../../ejercicios/diccionarios)
