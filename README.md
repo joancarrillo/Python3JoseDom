@@ -58,16 +58,16 @@
 
     ## Módulos y paquetes
 
-29. Introducción a los módulos y paquetes
+34. Introducción a los módulos y paquetes
 
     ## Programación estructurada
 
-30. Introducción a las funciones
-31. Funciones recursivas
-32. Ejercicios con funciones
+35. Introducción a las funciones
+36. Funciones recursivas
+37. Ejercicios con funciones
 
     ## Programación orientada a objetos
 
-33. Introducción a la programación orientada a objetos
-34. Polimorfismo, herencia y delegación
-35. Ejercicio de programación orientada a objetos
+38. Introducción a la programación orientada a objetos
+39. Polimorfismo, herencia y delegación
+40. Ejercicio de programación orientada a objetos
