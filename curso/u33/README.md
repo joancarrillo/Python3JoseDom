@@ -27,9 +27,9 @@ Una excepción o un error de ejecución se produce durante la ejecución del pro
 	  File "<stdin>", line 1, in <module>
 	TypeError: Can't convert 'int' object to str implicitly
 
-Hemos obtenido varias excpciones: ˋZeroDivisionErrorˋ, ˋNameErrorˋ y ˋTypeErrorˋ. Puedes ver la [lista de excepciones](https://docs.python.org/3.4/library/exceptions.html#bltin-exceptions) y su significado.
+Hemos obtenido varias excepciones: ˋZeroDivisionErrorˋ, ˋNameErrorˋ y ˋTypeErrorˋ. Puedes ver la [lista de excepciones](https://docs.python.org/3.4/library/exceptions.html#bltin-exceptions) y su significado.
 
-## Manejando excepciones. try, except, else, finally
+## Manejando excepciones. 
 
 Veamos un ejemplo simple como podemos tratar una excepción:
 
@@ -45,19 +45,14 @@ Veamos un ejemplo simple como podemos tratar una excepción:
 3. Si se produce una excepción, el resto del bloque `try` no se ejecuta, si la excepción que se ha produce corresponde con la indicada en `except` se salta a ejecutar el bloque de instrucciones `except`.
 4. Si la excepción producida no se corresponde con las indicadas en `except` se pasa a otra instrucción `try`, si finalmente no hay un manejador nos dará un error y el programa terminará.
 
-Un bloque `except` puede manejar varios tipos de excepciones:
-
-	... except (RuntimeError, TypeError, NameError):
-	...     pass
-
-Si quiero controlar varios tipos de excepciones puedo poner varios bloques `except`. Teniendo en cuenta que en el último, si quiero no indico el tipo de excepción:
+Un bloque `except` puede manejar varios tipos de excepciones, si quiero controlar varios tipos de excepciones puedo poner varios bloques `except`. Teniendo en cuenta que en el último, si quiero no indico el tipo de excepción:
 
 	>>> try:
 	...   print (10/int(cad))
 	... except ValueError:
-	...   print("No se puede converir a entero")
+	...   print("No se puede convertir a entero")
 	... except ZeroDivisionError:
-	...   print("No se puede divir por cero")
+	...   print("No se puede dividir por cero")
 	... except:
 	...   print("Otro error")
 
@@ -66,9 +61,9 @@ Se puede utilizar también la clausula `else`:
 	>>> try:
 	...   print (10/int(cad))
 	... except ValueError:
-	...   print("No se puede converir a entero")
+	...   print("No se puede convertir a entero")
 	... except ZeroDivisionError:
-	...   print("No se puede divir por cero")
+	...   print("No se puede dividir por cero")
 	... else:
 	...   print("Otro error")
 
@@ -84,34 +79,3 @@ Por último indicar que podemos indicar una clausula `finally` para indicar un b
 	...     print("Terminamos el programa")
 
 
-## Obteniendo información de las excepciones
-
-	>>> cad = "a"
-	>>> try:
-	...   i = int(cad)
-	... except ValueError as error:
-	...   print(type(error))
-	...   print(error.args)
-	...   print(error)
-	... 
-	<class 'ValueError'>
-	("invalid literal for int() with base 10: 'a'",)
-	invalid literal for int() with base 10: 'a'
-
-## Propagando excepciones. raise
-
-Si construimos una función donde se maneje una excepción podemos hacer que la excepción se envía a la función desde la que la hemos llamado. Para ello utilizamos la instrucción `raise`. Veamos algunos ejemplos:
-
-	def dividir(x,y):
-		try:
-			return x/y
-		except ZeroDivisionError:
-			raise 
-
-Con `raise` también podemos propagar una excepción en concreto:
-
-	def nivel(numero):
-		if numero<0:
-			raise ValueError("El número debe ser positivo:"+str(numero))
-		else:
-			return numero
