@@ -54,7 +54,7 @@
 
     ## Excepciones
 
-33. [Excepciones](curso/33)
+33. [Excepciones](curso/u33)
 
     ## Módulos y paquetes
 
