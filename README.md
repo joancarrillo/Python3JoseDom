@@ -62,8 +62,8 @@
 
     ## Programación estructurada
 
-35. Introducción a las funciones
-36. Funciones recursivas
+35. [Introducción a las funciones](curso/u35)
+36. [Funciones recursivas](curso/u36)
 37. Ejercicios con funciones
 
     ## Programación orientada a objetos
