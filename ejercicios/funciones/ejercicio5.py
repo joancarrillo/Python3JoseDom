@@ -1,7 +1,7 @@
 # Procedimiento CalcularMaxMin: recibe una lista de enteros  y devuelve
 #  el máximo y el mínimo de los números guardados en el vector.
 # Parámetros de entrada: lista de enteros
-# Parámetros de entrada y salida: valor máximo y mínimo
+# Valores de salida: valor máximo y mínimo
 import random
 def CalcularMaxMin(lista):
 	return (max(lista),min(lista))
