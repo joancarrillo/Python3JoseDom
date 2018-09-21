@@ -46,7 +46,7 @@ def LeerFraccion():
 # y denominador. 
 # Datos devueltos: numerador y denominador 
 
-def SimplificarFraccion(num,den)
+def SimplificarFraccion(num,den):
 	mcd = CalcularMCD(num,den)
 	num = num / mcd
 	den = den / mcd
@@ -75,7 +75,7 @@ def EscribirFraccion(num,den):
 # Parámetros de entrada: numerador1 y denominador1, numerador2 y denominador2
 # Datos devueltos: numerador y denominador de la fracción resultado
 
-def SumarFracciones(n1,d1,n2,d2)
+def SumarFracciones(n1,d1,n2,d2):
 	nr = n1*d2 + d1*n2
 	dr = d1 * d2
 	nr,dr = SimplificarFraccion(nr,dr)
@@ -89,7 +89,7 @@ def SumarFracciones(n1,d1,n2,d2)
 # Parámetros de entrada: numerador1 y denominador1, numerador2 y denominador2
 # Datos devueltos: numerador y denominador de la fracción resultado
 
-def RestarFracciones(n1,d1,n2,d2)
+def RestarFracciones(n1,d1,n2,d2):
 	nr = n1*d2 - d1*n2
 	dr = d1 * d2
 	nr,dr = SimplificarFraccion(nr,dr)
@@ -103,7 +103,7 @@ def RestarFracciones(n1,d1,n2,d2)
 # Parámetros de entrada: numerador1 y denominador1, numerador2 y denominador2
 # Datos devueltos: numerador y denominador de la fracción resultado
 
-def MultiplicarFracciones(n1,d1,n2,d2)
+def MultiplicarFracciones(n1,d1,n2,d2):
 	nr = n1 * n2
 	dr = d1 * d2
 	nr,dr = SimplificarFraccion(nr,dr)
@@ -117,7 +117,7 @@ def MultiplicarFracciones(n1,d1,n2,d2)
 # Parámetros de entrada: numerador1 y denominador1, numerador2 y denominador2
 # Datos devueltos: numerador y denominador de la fracción resultado
 
-def DividirFracciones(n1,d1,n2,d2)
+def DividirFracciones(n1,d1,n2,d2):
 	nr = n1 * d2
 	dr = d1 * n2
 	nr,dr = SimplificarFraccion(nr,dr)
