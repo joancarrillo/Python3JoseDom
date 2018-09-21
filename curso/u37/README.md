@@ -94,11 +94,10 @@ Crear un programa que utilizando las funciones anteriores muestre el siguiente m
 
 Vamos a crear un programa para trabajar con una pila. Una pila es una estructura de datos que nos permite guardar un conjunto de variables. La característica fundamental es que el último elemento que se añade al conjunto es el primero que se puede sacar.
 
-Para representar una pila vamos a utilizar un arreglo (vector) de cadena de caracteres con tamaño 10, por lo tanto la pila no podrá tener más de 10 elementos.
+Para representar una pila vamos a utilizar una lista de cadenas de caracteres.
 
 Vamos a crear varias funciones para trabajar con la pila:
 
-* `IncializarPila`: Como tenemos un arreglo de 10 elementos de cadenas tenemos que inicializarlo e introducir un carácter (por ejemplo un `*` que indique que ese elemento del arreglo no corresponde con un dato de la pila. Esta función inicializa el vector con ese carácter.
 * `LongitudPila`: Función que recibe una pila y devuelve el número de elementos que tiene.
 * `EstaVaciaPila`: Función que recibe una pila y que devuelve si la pila está vacía, no tiene elementos.
 * `EstaLlenaPila`: Función que recibe una pila y que devuelve si la pila está llena.
