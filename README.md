@@ -64,7 +64,8 @@
 
 35. [Introducción a las funciones](curso/u35)
 36. [Funciones recursivas](curso/u36)
-37. Ejercicios con funciones
+37. [Ejercicios con funciones](curso/u37)
+38. [Más ejercicios](curso/u38)
 
     ## Programación orientada a objetos
 
