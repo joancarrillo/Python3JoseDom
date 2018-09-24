@@ -58,7 +58,7 @@
 
     ## Módulos y paquetes
 
-34. Introducción a los módulos y paquetes
+34. [Introducción a los módulos](curso/u34)
 
     ## Programación estructurada
 
