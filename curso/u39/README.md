@@ -38,6 +38,9 @@ Vamos a crear una nueva clase:
 	def __init__(self,x=0,y=0):
 		self.x=x
 		self.y=y
+	
+    def mostrar(self):
+        return str(self.x)+":"+str(self.y)
 
 	def distancia(self, otro):
 		""" Devuelve la distancia entre ambos puntos. """
