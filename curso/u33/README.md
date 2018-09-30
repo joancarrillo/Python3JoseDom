@@ -29,7 +29,7 @@ Una excepción o un error de ejecución se produce durante la ejecución del pro
 
 Hemos obtenido varias excepciones: ˋZeroDivisionErrorˋ, ˋNameErrorˋ y ˋTypeErrorˋ. Puedes ver la [lista de excepciones](https://docs.python.org/3.4/library/exceptions.html#bltin-exceptions) y su significado.
 
-## Manejando excepciones. 
+## Manejando excepciones
 
 Veamos un ejemplo simple como podemos tratar una excepción:
 
