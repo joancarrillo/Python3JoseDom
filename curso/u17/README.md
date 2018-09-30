@@ -13,13 +13,13 @@ La instrucción `while` ejecuta una secuencia de instrucciones mientras una cond
 
 Crea un programa que pida al usuario una contraseña, de forma repetitiva mientras que no introduzca "asdasd". Cuando finalmente escriba la contraseña correcta, se le dirá "Bienvenido" y terminará el programa.
 
-	secreto = "asdasd"
-	clave = input("Dime la clave:")
-	while clave != secreto:
-		print("Clave incorrecta!!!")
-		clave = input("Dime la clave:")
-	print("Bienvenido!!!")
-	print("Programa terminado")
+    secreto = "asdasd"
+    clave = input("Dime la clave:")
+    while clave != secreto:
+        print("Clave incorrecta!!!")
+        clave = input("Dime la clave:")
+    print("Bienvenido!!!")
+    print("Programa terminado")
 
 ## Instrucciones break y continue
 
@@ -29,20 +29,20 @@ Termina la ejecución del bucle, además no ejecuta el bloque de instrucciones.
 
 Veamos un programa similar al anterior pero que tiene otra condición de salida:
 
-	secreto = "asdasd"
-	clave = input("Dime la clave:")
-	while clave != secreto:
-		print("Clave incorrecta!!!")
+    secreto = "asdasd"
+    clave = input("Dime la clave:")
+    while clave != secreto:
+        print("Clave incorrecta!!!")
         otra = input("¿Quieres introducir otra clave (S/N)?:")
         if otra.upper()=="N":
             break;
-		clave = input("Dime la clave:")
-	if clave == secreto:
+        clave = input("Dime la clave:")
+    if clave == secreto:
         print("Bienvenido!!!")
-	print("Programa terminado")
+    print("Programa terminado")
 
 ### continue
-	
+    
 Deja de ejecutar las restantes instrucciones del bucle y vuelve a iterar.
 
 Aunque podemos de hacerlo de varias formas, vamos a usar la instrucción `continue` para mostrar los número pares del 1 al 10:
@@ -65,27 +65,27 @@ Crea un programa que pida al usuario una contraseña, de forma repetitiva mientr
 En pseudocódigo:
 
     Proceso login
-    	Definir secreto, clave como cadena;
-    	secreto <- "asdasd";
-    	Repetir
-    		Escribir "Dime la clave:";
-    		Leer clave;
-    		Si clave<>secreto Entonces
-    			Escribir "Clave incorrecta!!!";
-    		FinSi
-    	Hasta Que clave=secreto
-    	Escribir "Bienvenido!!!";
-    	Escribir "Programa terminado";
+        Definir secreto, clave como cadena;
+        secreto <- "asdasd";
+        Repetir
+            Escribir "Dime la clave:";
+            Leer clave;
+            Si clave<>secreto Entonces
+                Escribir "Clave incorrecta!!!";
+            FinSi
+        Hasta Que clave=secreto
+        Escribir "Bienvenido!!!";
+        Escribir "Programa terminado";
     FinProceso
 
 En python3:
 
-	secreto = "asdasd"
-	while True:
-		clave = input("Dime la clave:")
-		if clave != secreto:
+    secreto = "asdasd"
+    while True:
+        clave = input("Dime la clave:")
+        if clave != secreto:
             print("Clave incorrecta!!!")
         if clave == secreto:
             break;
     print("Bienvenido!!!")
-	print("Programa terminado")
+    print("Programa terminado")
