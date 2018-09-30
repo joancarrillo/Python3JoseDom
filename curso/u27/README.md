@@ -64,7 +64,6 @@
 	>>> lista.sort()
 	>>> lista
 	['Hola', 'Que', 'Tal', 'hola', 'que', 'tal']
-	>>> lista=["hola","que","tal","Hola","Que","Tal"]
 
 
 ## Métodos de búsqueda: count, index
