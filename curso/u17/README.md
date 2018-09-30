@@ -21,7 +21,7 @@ Crea un programa que pida al usuario una contraseña, de forma repetitiva mientr
 	print("Bienvenido!!!")
 	print("Programa terminado")
 
-## Instrucciones break, continue y pass
+## Instrucciones break y continue
 
 ### break
 
