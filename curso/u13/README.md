@@ -1,4 +1,4 @@
-# Pasando de pseudocódigo a python3 I
+# Pasando de pseudocódigo a python3
 
 Antes de empezar hacer ejercicios con la estructura secuencial, vamos a ver como convertimos algunas instrucciones en pseudocódigo a python3:
 
