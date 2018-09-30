@@ -99,6 +99,7 @@ Otras funciones de validación: `isdigit()`, `islower()`, `isupper()`, `isspace(
 
 aunque todavia no lo hemos estudiado, lel método `split()` nos permite convertir una cadena en una lista. Lo usaremos más adelante.
 
+	>>> hora = "12:23:12"
 	>>> print(hora.split(":"))
 	['12', '23', '12']
 
