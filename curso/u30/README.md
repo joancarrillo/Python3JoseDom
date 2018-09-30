@@ -7,7 +7,7 @@ Los diccionarios son tipos de datos que nos permiten guardar valores, a los que 
 	>>> dicccionario = {'one': 1, 'two': 2, 'three': 3}
 	
 Si tenemos un diccionario vacío, al ser un objeto mutable, también podemos construir el diccionario de la siguiente manera.
-
+	
 	>>> dict1 = {}
 	>>> dict1["one"]=1
 	>>> dict1["two"]=2
