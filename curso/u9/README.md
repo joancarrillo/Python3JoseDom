@@ -1,4 +1,4 @@
-# Tipo de datos booleanos
+# Tipo de datos booleano
 
 ## Tipo booleano
 

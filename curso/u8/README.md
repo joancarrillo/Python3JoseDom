@@ -1,4 +1,4 @@
-# Tipo de datos numéricos
+# Tipos de datos numéricos
 
 Python3 trabaja con tres tipos numéricos:
 
