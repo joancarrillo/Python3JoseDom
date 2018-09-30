@@ -10,6 +10,7 @@ En Python no existen los arrays, tenemos varios tipos de datos que nos permiten 
 ## Construcción de una lista 
 
 Para crear una lista puedo usamos los caracteres `[` y `]`:
+
 	>>> lista1 = []
 	>>> lista2 = ["a",1,True]
 
