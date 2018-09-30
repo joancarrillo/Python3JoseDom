@@ -55,9 +55,9 @@ Los operadores que podemos utilizar se clasifican según el tipo de datos con lo
 * Operadores lógicos: `and`, `or`, `not` 
 * Operadores de pertenencia: `in`, `not in`
 
-La procedencia de operadores es la siguiente:
+La precedencia de operadores es la siguiente:
 
-1. Los paréntesis rompen la procedencia.
+1. Los paréntesis rompen la precedencia.
 2. La potencia (**)
 3. Operadores unarios (`+` `-`)
 4. Multiplicar, dividir, módulo y división entera (`*` `%` `//` )
