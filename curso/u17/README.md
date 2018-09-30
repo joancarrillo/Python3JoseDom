@@ -33,7 +33,7 @@ Veamos un programa similar al anterior pero que tiene otra condición de salida:
 	clave = input("Dime la clave:")
 	while clave != secreto:
 		print("Clave incorrecta!!!")
-        otra = input("¿Quieres introducir otra calve (S/N)?:")
+        otra = input("¿Quieres introducir otra clave (S/N)?:")
         if otra.upper()=="N":
             break;
 		clave = input("Dime la clave:")
