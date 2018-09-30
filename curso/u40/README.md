@@ -23,23 +23,23 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
 
 En Python, las propiedades nos permiten implementar la funcionalidad exponiendo estos métodos como atributos.
 
-class circulo():
-	def __init__(self,radio):
-		self.radio=radio
-	
-	@property
-	def radio(self):
-		print("Estoy dando el radio")
-		return self.__radio	
-
-	@radio.setter
-	def radio(self,radio):
-		if radio>=0:
-			self.__radio = radio
-		else:
-			raise ValueError("Radio positivo")
-			self.__radio=0
-
+    class circulo():
+    	def __init__(self,radio):
+    		self.radio=radio
+    
+    	@property
+    	def radio(self):
+    		print("Estoy dando el radio")
+    		return self.__radio	
+    
+    	@radio.setter
+    	def radio(self,radio):
+    		if radio>=0:
+    			self.__radio = radio
+    		else:
+    			raise ValueError("Radio positivo")
+    			self.__radio=0
+    
 
     >>> c1=circulo(3)
     >>> c1.radio
