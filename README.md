@@ -70,5 +70,6 @@
     ## Programación orientada a objetos
 
 39. [Introducción a la programación orientada a objetos](curso/u39)
-40. [Polimorfismo, herencia y delegación](curso/u40)
-41. Ejercicio de programación orientada a objetos
+40. [Encapsulamiento en la programación orientada a objetos](curso/u40)
+41. [Polimorfismo, herencia y delegación](curso/u41)
+42. Ejercicio de programación orientada a objetos

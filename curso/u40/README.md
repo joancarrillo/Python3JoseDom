@@ -1,80 +1,54 @@
-# Polimorfismo, herencia y delegación
+# Encapsulamiento en la programación orientada a objetos
+
+En la unidad anterior terminamos viendo que teníamos la posibilidad de cambiar los valores de los atributos de un objeto. En muchas ocasiones es necesario que esta modificación no se haga directamente, sino que tengamos utilizar un método para realizar la modificación y poder controlar esa operación, a eso lo llama **encapsulamiento**.
+
+## Atributos privados
+
+Las variables que comienzan por un doble guión bajo `__` la podemos considerar como atributos privados. Veamos un ejemplo:
+
+	>>> class Alumno():
+	...    def __init__(self,nombre=""):
+	...       self.nombre=nombre
+	...       self.__secreto="asdasd"
+	... 
+	>>> a1=Alumno("jose")
+	>>> a1.__secreto
+	Traceback (most recent call last):
+	  File "<stdin>", line 1, in <module>
+	AttributeError: 'Alumno' object has no attribute '__secreto'
+
+## Propiedades: getters, setters, deleter
+
+Para implementar la encapsulación y no permitir el acceso directo a los atributos, podemos poner los atributos ocultos y declarar métodos específicos para acceder y modificar los atributos.
+
+En Python, las propiedades nos permiten implementar la funcionalidad exponiendo estos métodos como atributos.
+
+class circulo():
+	def __init__(self,radio):
+		self.radio=radio
 	
-## Polimorfismo
+	@property
+	def radio(self):
+		print("Estoy dando el radio")
+		return self.__radio	
 
-El polimorfismo es la técnica que nos posibilita que al invocar un determinado método de un objeto, podrán obtenerse distintos resultados según la clase del objeto. Esto se debe a que distintos objetos pueden tener un método con un mismo nombre, pero que realice distintas operaciones.
+	@radio.setter
+	def radio(self,radio):
+		if radio>=0:
+			self.__radio = radio
+		else:
+			raise ValueError("Radio positivo")
+			self.__radio=0
 
-Esto es posible debido a que python es dinámico, es decir en tiempo de ejecución es cuando se determina el tipo de un objeto. Veamos un ejemplo:
 
-	class gato():
-		def hablar(self):
-			print("MIAU")	
-
-	class perro():
-		def hablar(self):
-			print("GUAU")	
-
-	def escucharMascota(animal):
-		animal.hablar()	
-
-	g = gato()
-	p = perro()
-	escucharMascota(g)
-	escucharMascota(p)
-
-## Herencia
-
-La herencia es un mecanismo de la programación orientada a objetos que sirve para crear clases nuevas a partir de clases preexistentes. Se toman (heredan) atributos y métodos de las clases viejas y se los modifica para modelar una nueva situación.
-
-La clase desde la que se hereda se llama clase base y la que se construye a partir de ella es una clase derivada.
-
-Si nuestra clase base es la clase `punto` estudiadas en unidades anteriores, puedo crear una nueva clase de la siguiente manera:
-
-	class punto3d(punto):
-		def __init__(self,x=0,y=0,z=0):
-			super().__init__(x,y)
-			self.z=z
-        
-        def mostrar(self):
-            return super().mostrar()+":"+str(self.z)
-
-		def distancia(self,otro):
-			dx = self.x - otro.x
-			dy = self.y - otro.y
-			dz = self.z - otro.z
-			return (dx*dx + dy*dy + dz*dz)**0.5	
-
-Creemos dos objetos de cada clase y veamos los atributos y métodos que tienen definido:
-
-	>>> p=punto(1,2)
-	>>> p3d=punto3d(1,2,3)
-
-## La función super()
-
-La función `super()` me proporciona una referencia a la clase base. Y podemos observar que hemos reescrito el método `distancia` y `mostrar`:
-
-	>>> p.distancia(punto(5,6))
-	5.656854249492381
-	>>> p3d.distancia(punto3d(2,3,4))
-	1.7320508075688772
-
-## Delegación
-
-Llamamos delegación a la situación en la que una clase contiene (como atributos) una o más instancias de otra clase, a las que delegará parte de sus funcionalidades.
-
-A partir de la clase `punto`, podemos crear la clase `circulo` de esta forma:
-
-	class circulo():	
-
-		def __init__(self,centro,radio):
-			self.centro=centro
-			self.radio=radio	
-
-		def mostrar(self):
-			return "Centro:{0}-Radio:{1}".format(self.centro.mostrar(),self.radio)	
-
-Y creamos un objeto `circulo`:
-
-	>>> c1=circulo(punto(2,3),5)
-	>>> print(c1.mostrar())
-	Centro:2:3-Radio:5
+    >>> c1=circulo(3)
+    >>> c1.radio
+    Estoy dando el radio
+    3
+    >>> c1.radio=4
+    >>> c1.radio=-1
+    Traceback (most recent call last):
+    File "<stdin>", line 1, in <module>
+      File "/home/jose/github/curso_python3/curso/u52/circulo2.py", line 15, in radio
+        raise ValueError("Radio positivo")
+    ValueError: Radio positivo
