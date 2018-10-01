@@ -56,7 +56,7 @@
 
 33. [Excepciones](curso/u33)
 
-    ## Módulos y paquetes
+    ## Introducción a los módulos
 
 34. [Introducción a los módulos](curso/u34)
 
