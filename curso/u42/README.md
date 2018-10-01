@@ -24,3 +24,6 @@ Crea una clase llamada `Cuenta` que tendrá los siguientes atributos: titular (q
 
 Cuenta joven
 
+# Ejercicios resueltos
+
+[Ejercicios de funciones](../../ejercicios/objetos)
