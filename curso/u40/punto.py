@@ -4,8 +4,8 @@ class punto():
     que representan los valores de las coordenadas cartesianas."""
 
     def __init__(self,x=0,y=0):
-        self.__x=x
-        self.__y=y
+        self.x=x
+        self.y=y
     
     @property
     def x(self):
@@ -17,10 +17,10 @@ class punto():
        
     @x.setter
     def x(self,x):
-    	self.__x=0
-    @x.setter
+    	self.__x=x
+    @y.setter
     def y(self,x):
-    	self.__y=0
+    	self.__y=y
 
     def mostrar(self):
         return str(self.__x)+":"+str(self.__y)
@@ -39,3 +39,4 @@ print("El punto 1 es",punto1.mostrar())
 print(punto1.distancia(punto2))
 print("Cambio la coordenada x del punto 1")
 punto1.x=3
+print ("La X del punto 1 es",punto1.x)

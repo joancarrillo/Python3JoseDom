@@ -25,7 +25,7 @@ En Python, las **propiedades** nos permiten implementar la funcionalidad exponie
 
     class circulo():
     	def __init__(self,radio):
-    		self.__radio=radio
+    		self.radio=radio
     
     	@property
     	def radio(self):
