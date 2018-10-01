@@ -26,4 +26,4 @@ Cuenta joven
 
 # Ejercicios resueltos
 
-[Ejercicios de funciones](../../ejercicios/objetos)
+[Ejercicios de Programación orientada a objetos](../../ejercicios/objetos)
