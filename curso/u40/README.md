@@ -4,7 +4,7 @@ En la unidad anterior terminamos viendo que teníamos la posibilidad de cambiar 
 
 ## Atributos privados
 
-Las variables que comienzan por un doble guión bajo `__` la podemos considerar como atributos privados. Veamos un ejemplo:
+Las variables que comienzan por un doble guión bajo `__` la podemos considerar como **atributos privados**. Veamos un ejemplo:
 
 	>>> class Alumno():
 	...    def __init__(self,nombre=""):
@@ -17,15 +17,15 @@ Las variables que comienzan por un doble guión bajo `__` la podemos considerar 
 	  File "<stdin>", line 1, in <module>
 	AttributeError: 'Alumno' object has no attribute '__secreto'
 
-## Propiedades: getters, setters, deleter
+## Propiedades: getters y setters
 
 Para implementar la encapsulación y no permitir el acceso directo a los atributos, podemos poner los atributos ocultos y declarar métodos específicos para acceder y modificar los atributos.
 
-En Python, las propiedades nos permiten implementar la funcionalidad exponiendo estos métodos como atributos.
+En Python, las **propiedades** nos permiten implementar la funcionalidad exponiendo estos métodos como atributos.
 
     class circulo():
     	def __init__(self,radio):
-    		self.radio=radio
+    		self.__radio=radio
     
     	@property
     	def radio(self):
