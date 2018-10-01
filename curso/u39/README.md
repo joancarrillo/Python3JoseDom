@@ -4,27 +4,26 @@ La Programación Orientado a Objetos (POO) se basa en la agrupación de objetos 
 
 ## Definición de clase, objeto, atributos y métodos
 
-* Llamamos clase a la representación abstracta de un concepto. Por ejemplo, "perro", "número entero" o "servidor web".
-* Las clases se componen de atributos y métodos.
-* Un objeto es cada una de las instancias de una clase.
-* Los atributos definen las características propias del objeto y modifican su estado. Son datos asociados a las clases y a los objetos creados a partir de ellas.
-* Un atributo de clase es compartida por todas las instancias de una clase. Se definen dentro de la clase (después del encabezado de la clase) pero nunca dentro de un método. Este tipo de variables no se utilizan con tanta frecuencia como las variables de instancia.
-* Un atributo de objeto se define dentro de un método y pertenece a un objeto determinado de la clase instanciada.
-* Los métodos son bloques de código (o funciones) de una clase que se utilizan para definir el comportamiento de los objetos.
+* Llamamos **clase** a la representación abstracta de un concepto. Por ejemplo, "perro", "número entero" o "servidor web".
+* Las clases se componen de **atributos** y **métodos**.
+* Un **objeto** es cada una de las instancias de una clase.
+* Los **atributos** definen las características propias del objeto y modifican su estado. Son datos asociados a las clases y a los objetos creados a partir de ellas.
+* Un **atributo de objeto** se define dentro de un método y pertenece a un objeto determinado de la clase instanciada.
+* Los **métodos** son bloques de código (o funciones) de una clase que se utilizan para definir el comportamiento de los objetos.
 
 ## Atributos de objetos
 
-Para definir atributos de objetos, basta con definir una variable dentro de los métodos, es una buena idea definir todos los atributos de nuestras instancias en el constructor, de modo que se creen con algún valor válido. 
+Para definir **atributos de objetos**, basta con definir una variable dentro de los métodos, es una buena idea definir todos los atributos de nuestras instancias en el **constructor**, de modo que se creen con algún valor válido. 
 
 ## Método constructor __init__
 
-Como hemos visto anteriormente los atributos de objetos no se crean hasta que no hemos ejecutado el método. Tenemos un método especial, llamado constructor `__init__`, que nos permite inicializar los atributos de objetos. Este método se llama cada vez que se crea una nueva instancia de la clase.
+Como hemos visto anteriormente los atributos de objetos no se crean hasta que no hemos ejecutado el método. Tenemos un método especial, llamado **constructor** `__init__`, que nos permite inicializar los atributos de objetos. Este método se llama cada vez que se crea una nueva instancia de la clase (objeto).
 
 ## Definiendo métodos. El parámetro self
 
-El método construcutor, al igual que todos los métodos de cualquier clase, recibe como primer parámetro a la instancia sobre la que está trabajando. Por convención a ese primer parámetro se lo suele llamar `self` (que podríamos traducir como yo mismo), pero puede llamarse de cualquier forma.
+El método **constructor**, al igual que todos los métodos de cualquier clase, recibe como primer parámetro a la instancia sobre la que está trabajando. Por convención a ese primer parámetro se lo suele llamar `self` (que podríamos traducir *como yo mismo*), pero puede llamarse de cualquier forma.
 
-Para referirse a los atributos de objetos hay que hacerlo a partir del objeto `self`.
+Para referirse a los **atributos de objetos** hay que hacerlo a partir del objeto `self`.
 
 ## Definición de objetos
 
@@ -62,5 +61,4 @@ Podemos acceder y modificar los atributos de objeto:
 	>>> punto2.x = 7
 	>>> punto2.x
 	7
-
 
