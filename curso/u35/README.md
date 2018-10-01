@@ -90,7 +90,7 @@ Una función en python puede devolver información utilizando la instrucción `r
 
 ## Llamadas a una función
 
-Cuando se llama a una función se tienen que indicar los parámetros reales que se van a pasar. La llamada a una función se puede considerar una expresión cuyo valor y tipo es el retornado por la función. Si la función no tiene una instrucción `return` el tipo de la llamada sera `None`.
+Cuando se llama a una función se tienen que indicar los parámetros reales que se van a pasar. La llamada a una función se puede considerar una expresión cuyo valor y tipo es el retornado por la función. Si la función no tiene una instrucción `return` el tipo de la llamada será `None`.
 
 	>>> def cuadrado(n):
 	...   return n*n
