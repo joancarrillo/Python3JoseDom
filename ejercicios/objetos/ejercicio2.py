@@ -18,7 +18,7 @@ class Cuenta():
 
        
     def mostrar(self):
-        return "Cuenta\n"+"Titular:"+self.__titular.mostrar()+" - Cantidad:"+str(self.cantidad)
+        return "Cuenta\n"+"Titular:"+self.titular.mostrar()+" - Cantidad:"+str(self.cantidad)
     
     def ingresar(self,cantidad):
         if cantidad > 0:
