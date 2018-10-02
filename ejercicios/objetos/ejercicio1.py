@@ -1,10 +1,9 @@
 class Persona():
 
-    def __init__(self,nombre="",edad=0,dni="",sexo=""):
+    def __init__(self,nombre="",edad=0,dni=""):
         self.nombre=nombre
         self.edad=edad
         self.dni=dni
-        self.sexo=sexo
     
     @property
     def nombre(self):
@@ -18,18 +17,10 @@ class Persona():
     def dni(self):
         return self.__dni
     
-    @property
-    def sexo(self):
-        return self.__sexo
-
     @nombre.setter
     def nombre(self,nombre):
         self.__nombre=nombre
 
-    @nombre.setter
-    def nombre(self,nombre):
-        self.__nombre=nombre
-    
     def validar_dni(self):
         letras = "TRWAGMYFPDXBNJZSQVHLCKE"
         if len(self.__dni)!=9:
@@ -55,16 +46,9 @@ class Persona():
         else:
             self.__edad=edad
     
-    @sexo.setter
-    def sexo(self,sexo):
-        if sexo.upper() not in ["H", "M"]:
-            print("Sexo incorrecto")
-            self.__sexo=""
-        else:
-            self.__sexo=sexo.upper()
     
     def mostrar(self):
-        return "Nombre:"+self.nombre+" - Edad:"+str(self.edad)+" - DNI:"+self.dni+" - Sexo:"+self.sexo
+        return "Nombre:"+self.nombre+" - Edad:"+str(self.edad)+" - DNI:"+self.dni
 
     def esMayorDeEdad(self):
         return self.edad>=18

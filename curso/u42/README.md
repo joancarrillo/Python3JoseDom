@@ -2,7 +2,7 @@
 
 ## Ejercicio 1
 
-Vamos a crear una clase llamada `Persona`. Sus atributos son: **nombre**, **edad**, **DNI**, **sexo** (H hombre, M mujer). Construye los siguientes métodos para la clase:
+Vamos a crear una clase llamada `Persona`. Sus atributos son: **nombre**, **edad** y **DNI**. Construye los siguientes métodos para la clase:
 
 * Un constructor, donde los datos pueden estar vacíos.
 * Los setters y getters para cada uno de los atributos. Hay que validar las entradas de datos.
@@ -26,7 +26,7 @@ Vamos a definir ahora una "Cuenta Joven", para ello vamos a crear una nueva clas
 
 * Un constructor.
 * Los setters y getters para el nuevo atributo.
-* En esta ocasión los titulares de este tipo de cuenta tienen que tener menos de 25 años, por lo tanto hay que crear un método `esTitularValido()` que devuelve verdadero si el titular es menor de 25 años y falso en caso contrario.
+* En esta ocasión los titulares de este tipo de cuenta tienen que ser mayor de edad., por lo tanto hay que crear un método `esTitularValido()` que devuelve verdadero si el titular es mayor de edad pero menor de 25 años y falso en caso contrario.
 * Además la retirada de dinero sólo se podrá hacer si el titular es válido. 
 * El método `mostrar()` debe devolver el mensaje de "Cuenta Joven" y la bonificación de la cuenta.
 

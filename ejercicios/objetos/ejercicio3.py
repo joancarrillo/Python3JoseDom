@@ -17,9 +17,11 @@ class CuentaJoven(Cuenta):
         return "Cuenta Joven\n"+"Titular:"+self.titular.mostrar()+" - Cantidad:"+str(self.cantidad)+ "- Bonificación:"+str(self.bonificacion)+"%"
    
     def esTitularValido(self):
-        return self.titular.edad < 25
+        return self.titular.edad < 25 and self.titular.esMayorDeEdad()
     
     def retirar(self,cantidad):
-        if cantidad > 0 and self.esTitularValido():
+        if not self.esTitularValido():
+            print ("No puesdes retirar el dinero. titular no válido")
+        elif cantidad > 0:
             super().retirar(cantidad)
     
