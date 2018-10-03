@@ -42,12 +42,12 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
     			self.__radio=0
     
 
-    >>> c1=circulo(3)
-    >>> c1.radio
-    Estoy dando el radio
-    3
-    >>> c1.radio=4
-    >>> c1.radio=-1
+	>>> c1=circulo(3)
+	>>> c1.radio
+	Estoy dando el radio
+	3
+	>>> c1.radio=4
+	>>> c1.radio=-1
 	Radio debe ser positivo
 	>>> c1.radio
 	0
