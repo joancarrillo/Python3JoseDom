@@ -1,27 +1,5 @@
-# Polimorfismo, herencia y delegación
+# Herencia y delegación
 	
-## Polimorfismo
-
-El polimorfismo es la técnica que nos posibilita que al invocar un determinado método de un objeto, podrán obtenerse distintos resultados según la clase del objeto. Esto se debe a que distintos objetos pueden tener un método con un mismo nombre, pero que realice distintas operaciones.
-
-Esto es posible debido a que python es dinámico, es decir en tiempo de ejecución es cuando se determina el tipo de un objeto. Veamos un ejemplo:
-
-	class gato():
-		def hablar(self):
-			print("MIAU")	
-
-	class perro():
-		def hablar(self):
-			print("GUAU")	
-
-	def escucharMascota(animal):
-		animal.hablar()	
-
-	g = gato()
-	p = perro()
-	escucharMascota(g)
-	escucharMascota(p)
-
 ## Herencia
 
 La herencia es un mecanismo de la programación orientada a objetos que sirve para crear clases nuevas a partir de clases preexistentes. Se toman (heredan) atributos y métodos de las clases viejas y se los modifica para modelar una nueva situación.
