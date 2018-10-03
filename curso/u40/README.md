@@ -21,7 +21,8 @@ Las variables que comienzan por un doble guión bajo `__` la podemos considerar 
 
 Para implementar la encapsulación y no permitir el acceso directo a los atributos, podemos poner los atributos ocultos y declarar métodos específicos para acceder y modificar los atributos.
 
-En Python, las **propiedades** nos permiten implementar la funcionalidad exponiendo estos métodos como atributos.
+* En Python, las **propiedades (getters)** nos permiten implementar la funcionalidad exponiendo estos métodos como atributos.
+* Los métodos **setters** son métodos que nos permiten modificar los atributos a través de un método.
 
     class circulo():
     	def __init__(self,radio):
