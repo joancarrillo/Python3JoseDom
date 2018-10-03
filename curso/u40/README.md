@@ -38,7 +38,7 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
     		if radio>=0:
     			self.__radio = radio
     		else:
-    			raise ValueError("Radio positivo")
+    			print("Radio debe ser positivo")
     			self.__radio=0
     
 
@@ -48,8 +48,6 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
     3
     >>> c1.radio=4
     >>> c1.radio=-1
-    Traceback (most recent call last):
-    File "<stdin>", line 1, in <module>
-      File "/home/jose/github/curso_python3/curso/u52/circulo2.py", line 15, in radio
-        raise ValueError("Radio positivo")
-    ValueError: Radio positivo
+	Radio debe ser positivo
+	>>> c1.radio
+	0
