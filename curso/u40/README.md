@@ -24,6 +24,7 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
 * En Python, las **propiedades (getters)** nos permiten implementar la funcionalidad exponiendo estos métodos como atributos.
 * Los métodos **setters** son métodos que nos permiten modificar los atributos a través de un método.
 
+	```
     class circulo():
     	def __init__(self,radio):
     		self.radio=radio
@@ -40,6 +41,7 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
     		else:
     			print("Radio debe ser positivo")
     			self.__radio=0
+	```
 	```
 	>>> c1=circulo(3)
 	>>> c1.radio
