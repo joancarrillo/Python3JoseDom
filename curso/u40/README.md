@@ -40,8 +40,7 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
     		else:
     			print("Radio debe ser positivo")
     			self.__radio=0
-    
-
+	```
 	>>> c1=circulo(3)
 	>>> c1.radio
 	Estoy dando el radio
@@ -51,3 +50,4 @@ Para implementar la encapsulación y no permitir el acceso directo a los atribut
 	Radio debe ser positivo
 	>>> c1.radio
 	0
+	```
