@@ -32,7 +32,7 @@ Si nuestra clase base es la clase `punto` estudiadas en unidades anteriores, pue
 	        dz = self.__z - otro.__z
 	        return (dx*dx + dy*dy + dz*dz)**0.5	
 
-La clase `punto3d` hereda de la clase `punto` todos sis propiedades y sus métodos. En la clase hija hemos añadido la propiedad y el setter para el nuevo atributo z, y hemos modificado el constructor (sobreescritura) el método `mostrar` y el método `distancia`.
+La clase `punto3d` hereda de la clase `punto` todos sus propiedades y sus métodos. En la clase hija hemos añadido la propiedad y el setter para el nuevo atributo z, y hemos modificado el constructor (sobreescritura) el método `mostrar` y el método `distancia`.
 
 Creemos dos objetos de cada clase y veamos los atributos y métodos que tienen definido:
 
