@@ -25,7 +25,7 @@ Algunas de las operaciones que puedo realizar con las cadenas de caracteres son:
         >>> "abc" * 3
         'abcabcabc'
 
-* Indexación: Puedo obtener el dato de una secuencia indicando la posición en la secuencia. En este caso puedo obtener el caracter de la cadena indicando la posición (**empezando por la posición 0**).
+* Indexación: Puedo obtener el dato de una secuencia indicando la posición en la secuencia. En este caso puedo obtener el carácter de la cadena indicando la posición (**empezando por la posición 0**).
 
         >>> cadena = "josé"
         >>> cadena[0]

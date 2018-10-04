@@ -16,7 +16,7 @@ El propósito del análisis de un problema es ayudar al programador (Analista) p
 Para realizar el análisis del problema realizamos varios pasos:
 
 * **Definición del problema**: Tenemos que entender y comprender la naturaleza del problema, tenemos que dominar los conceptos con los que estamos trabajando y conocer que operaciones hay que realizar para solucionar el problema y obtener la información de salida.
-* **Especificación de los datos de entrada**: Hay que determinar qe datos de entrada necesitamos para resolver el problema.
+* **Especificación de los datos de entrada**: Hay que determinar que datos de entrada necesitamos para resolver el problema.
 * **Especificación de los datos de salida**: También hay que determinar los datos de salida que van a ofrecer la solución del problema.
 
 ## Diseño de algoritmos

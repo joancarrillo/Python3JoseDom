@@ -56,7 +56,7 @@ Además podemos indicar otro parámetro para indicar la posición desde la que q
 
 ## Métodos de validación
 
-`startswith()` nos indica con un valor lógico si la cadena empieza por la subcadena que hemos indicado como parámetro. Podemos indicar también con otro parámetro la psoición donde tiene que buscar.
+`startswith()` nos indica con un valor lógico si la cadena empieza por la subcadena que hemos indicado como parámetro. Podemos indicar también con otro parámetro la posición donde tiene que buscar.
 
 	>>> cad.startswith("b")
 	True
@@ -78,14 +78,14 @@ Otras funciones de validación: `isdigit()`, `islower()`, `isupper()`, `isspace(
 
 ## Métodos de sustitución
 
-`replace()`: Devuelve una cadena donde se ha sustituido las apariciones de la primera subcadena indicada por la segunda subcadena indicada como parámtero.
+`replace()`: Devuelve una cadena donde se ha sustituido las apariciones de la primera subcadena indicada por la segunda subcadena indicada como parámetro.
 
 	>>> buscar = "nombre apellido"
 	>>> reemplazar_por = "Juan Pérez" 
 	>>> print ("Estimado Sr. nombre apellido:".replace(buscar, reemplazar_por)) 
 	Estimado Sr. Juan Pérez:
 
-`strip()`: DEvuelve una cadena donde se han quitado los espacios del principio y del final. Si indicamos una subcadena como parámtro quitará dicha subcadena del principio y del final.
+`strip()`: Devuelve una cadena donde se han quitado los espacios del principio y del final. Si indicamos una subcadena como parámetro quitará dicha subcadena del principio y del final.
 
 	>>> cadena = "   www.eugeniabahit.com   " 
 	>>> print(cadena.strip())
@@ -97,7 +97,7 @@ Otras funciones de validación: `isdigit()`, `islower()`, `isupper()`, `isspace(
 
 ## Métodos de unión y división
 
-aunque todavia no lo hemos estudiado, lel método `split()` nos permite convertir una cadena en una lista. Lo usaremos más adelante.
+aunque todavía no lo hemos estudiado, el método `split()` nos permite convertir una cadena en una lista. Lo usaremos más adelante.
 
 	>>> hora = "12:23:12"
 	>>> print(hora.split(":"))

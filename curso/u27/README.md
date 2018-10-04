@@ -36,7 +36,7 @@
 	>>> lista
 	[1, 2, 3, 4, 5]
 
-`remove()`: Elimina el elmento de la lista indicado por la posición:
+`remove()`: Elimina el elemento de la lista indicado por la posición:
 
 	>>> lista.remove(3)
 	>>> lista

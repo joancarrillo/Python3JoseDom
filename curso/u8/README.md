@@ -31,7 +31,7 @@ Python3 trabaja con tres tipos numéricos:
 * `divmod(x,y)`: Toma como parámetro dos números, y devuelve una tubla con dos valores, la división entera, y el módulo o resto de la división.
 * `hex(x)`: Devuelve una cadena con la representación hexadecimal del número que recibe como parámetro.
 * `bin(x)`: Devuelve una cadena con la representación binaria del número que recibe como parámetro.
-* `pow(x,y): Devuelve la potencia de la base x elevedao al exponete y. Es similar al operador `**`.
+* `pow(x,y): Devuelve la potencia de la base x elevado al exponente y. Es similar al operador `**`.
 * `round(x,[y])`: Devuelve un número real (float) que es el redondeo del número recibido como parámetro, podemos indicar un parámetro opcional que indica el número de decimales en el redondeo.
 
 *Ejemplos*

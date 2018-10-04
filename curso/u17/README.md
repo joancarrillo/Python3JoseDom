@@ -56,7 +56,7 @@ Aunque podemos de hacerlo de varias formas, vamos a usar la instrucción `contin
 
 ## Instrucción `Repetir - Hasta Que`
 
-En pseudocódigo podemos encontrar una instrucción `Repetir - Hasta Que` que nos permite ejecutar una secuencia de instrucciones hasta que la condición sea verdadera. Con esta estructura la secuencia de instrucciones que forma el cuerpo del ciclo se ejecuta una vez y luego se evalúa la condición. Esta estructura de control ela podemos encontrar en muchos lenguajes de programación, pero en Python no existe. Podemos simular el comportamiento de esta estructura utilizando un bucle con `while` y con la instrucción `break`:
+En pseudocódigo podemos encontrar una instrucción `Repetir - Hasta Que` que nos permite ejecutar una secuencia de instrucciones hasta que la condición sea verdadera. Con esta estructura la secuencia de instrucciones que forma el cuerpo del ciclo se ejecuta una vez y luego se evalúa la condición. Esta estructura de control la podemos encontrar en muchos lenguajes de programación, pero en Python no existe. Podemos simular el comportamiento de esta estructura utilizando un bucle con `while` y con la instrucción `break`:
 
 ### Ejemplo
 

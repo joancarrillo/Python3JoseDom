@@ -6,7 +6,7 @@ Realizar un programa que inicialice una lista con 10 valores aleatorios (del 1 a
 
 ### Ejercicio 2
 
-Crea una lista e inicalizala con 5 cadenas de caracteres leídas por teclado. Copia los elementos de la lista en otra lista pero en orden inverso, y muestra sus elementos  por la pantalla.
+Crea una lista e inicializala con 5 cadenas de caracteres leídas por teclado. Copia los elementos de la lista en otra lista pero en orden inverso, y muestra sus elementos  por la pantalla.
 
 ### Ejercicio 3
 
@@ -82,7 +82,7 @@ Para guardar esta información se van a utilizar dos arreglos:
 * Nombre: Lista para guardar los nombres de los conductores.
 * kms: Tabla para guardar los kilómetros que realizan cada día de la semana.
 
-Se quiere generar una nueva lsita ("total_kms") con los kilómetros totales que realza cada conductor.
+Se quiere generar una nueva lista ("total_kms") con los kilómetros totales que realza cada conductor.
 
 Al finalizar se muestra la lista con los nombres de conductores y los kilómetros que ha realizado.
 

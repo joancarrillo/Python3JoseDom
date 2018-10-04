@@ -3,7 +3,7 @@
 
 ### Ejercicio 1
 
-Realice un programa que pregunte aleatóriamente una multiplicación. El programa debe indicar si la respuesta ha sido correcta o no (en caso que la respuesta sea incorrecta el programa debe indicar cuál es la correcta). El programa preguntará 10 multiplicaciones,  y al finalizar mostrará el número de aciertos.
+Realice un programa que pregunte aleatoriamente una multiplicación. El programa debe indicar si la respuesta ha sido correcta o no (en caso que la respuesta sea incorrecta el programa debe indicar cuál es la correcta). El programa preguntará 10 multiplicaciones,  y al finalizar mostrará el número de aciertos.
 
 ### Ejercicio 2
 
@@ -59,7 +59,7 @@ Para ello es necesario averiguar que día de la semana (Lunes, Martes, ...) corr
 
 ### Ejercicio 9
 
-Vamos a programar el juego "Mastermind", para ello el programa debe "eligir" un número de cuatro cifras (sin cifras repetidas), que será el código que el jugador debe adivinar en la menor cantidad de intentos posibles. Cada intento consiste en una propuesta de un código posible que escribe el jugador, y una respuesta del programa. Las respuestas le darán pistas al jugador para que pueda deducir el código.
+Vamos a programar el juego "Mastermind", para ello el programa debe "elegir" un número de cuatro cifras (sin cifras repetidas), que será el código que el jugador debe adivinar en la menor cantidad de intentos posibles. Cada intento consiste en una propuesta de un código posible que escribe el jugador, y una respuesta del programa. Las respuestas le darán pistas al jugador para que pueda deducir el código.
 
 * Número de "MUERTOS": Es la cantidad de dígitos que están en el número secreto y en la misma posición,
 * Número de "HERIDOS:" Es la cantidad de dígitos que están en el número secreto pero no en la misma posición.
@@ -75,7 +75,7 @@ Escribe un programa para jugar al ahorcado.
 * El programa te va pidiendo letras.
 * Si la letra está en la palabra, se mostrar la palabra mostrando las letras acertadas y los asteriscos en las letras que faltan por averiguar.
 * Cada vez que se introduce una letra se muestra las letras que has introducido anteriormente.
-* Si la letra no se encuentra en la palabra se suma un fallo. Según el número de fallos se mostrará el dibujo del ahorcado cada vez ms completo. 
+* Si la letra no se encuentra en la palabra se suma un fallo. Según el número de fallos se mostrará el dibujo del ahorcado cada vez más completo. 
 * Si introduces todas las letras de la palabra has ganada y te mostrará el número de intentos que has necesitado.
 * Si produces 6 fallos, habrás perdido y se mostrará el dibujo del ahorcado completo.
 

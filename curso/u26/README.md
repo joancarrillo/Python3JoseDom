@@ -14,7 +14,7 @@ Los elementos de las listas se pueden modificar:
 	>>> lista1
 	[1, 2]
 
-Esto también ocurre cuando usamos los métodos, es decir, los métodos de las listas modifican el contenido de la lista, por ejemplo si susamos el método `append()` para añadir un elemento a la lista:
+Esto también ocurre cuando usamos los métodos, es decir, los métodos de las listas modifican el contenido de la lista, por ejemplo si usamos el método `append()` para añadir un elemento a la lista:
 
     >>> lista1.append(3)
     >>> lista1

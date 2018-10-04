@@ -1,7 +1,7 @@
 # Tipo de datos secuencia: listas
 
 
-Si queremos gaurdar un conjunto de valores, en pseudocódigo utilizamos loas arreglos. Un array (o arreglo) es una estructura de datos con elementos homogéneos, del mismo tipo, numérico o alfanumérico, reconocidos por un nombre en común.
+Si queremos guardar un conjunto de valores, en pseudocódigo utilizamos loas arreglos. Un array (o arreglo) es una estructura de datos con elementos homogéneos, del mismo tipo, numérico o alfanumérico, reconocidos por un nombre en común.
 
 Hay muchos lenguajes que implementan los arrays, pero esta estructura tiene dos limitaciones: son homogéneas, es decir sólo se pueden guardar datos del mismo tipo, y son estáticas, a la hora de declarar se indican las posiciones y la longitud del array no se puede cambiar durante la ejecución del programa.
 

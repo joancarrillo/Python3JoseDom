@@ -4,7 +4,7 @@ Vamos a escribir nuestro primer programa para estudiar la estructura de un progr
 
 ## Pseudocódigo
 
-El programa que vamos a realizar es el siguiente: **Programa que pida la edad y diga si es mayor de edad.** Después de realizar el análisis y el diseño realizamos un pseudócódigo como este:
+El programa que vamos a realizar es el siguiente: **Programa que pida la edad y diga si es mayor de edad.** Después de realizar el análisis y el diseño realizamos un pseudocódigo como este:
 
     Proceso mayor_edad
     	Definir edad como entero;
@@ -16,7 +16,7 @@ El programa que vamos a realizar es el siguiente: **Programa que pida la edad y 
     	Escribir "Programa terminado";
     FinProceso
 
-## Códificación
+## Codificación
 
 A partir de este pseudocódigo podemos realizar un programa en python3 que sería similar a este:
 

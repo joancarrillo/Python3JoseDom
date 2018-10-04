@@ -6,7 +6,7 @@ Además de las operaciones que ya hemos estudiado:
 
 * Concatenación: `+`:  El operador + me permite unir datos de tipos secuenciales, en este caso dos cadenas de caracteres.
 * Repetición: `*`:  El operador * me permite repetir un dato de un tipo secuencial, en este caso de cadenas de caracteres.
-* Indexación: Puedo obtener el dato de una secuencia indicando la posición en la secuencia. En este caso puedo obtener el caracter de la cadena indicando la posición (**empezando por la posición 0**).
+* Indexación: Puedo obtener el dato de una secuencia indicando la posición en la secuencia. En este caso puedo obtener el carácter de la cadena indicando la posición (**empezando por la posición 0**).
 * Para obtener la longitud de una cadena (número de caracteres que tiene), utilizamos la función `len`.
 
 Tenemos más operaciones que podemos realizar:

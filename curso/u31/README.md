@@ -16,7 +16,7 @@
 	>>> dict1 = {'one': 1, 'two': 2, 'three': 3}
 	>>> dict2 = dict1.copy()
 
-`update()`: Nos permite añadir elementos a un diccionario a partir de lso elementos de otro diccionario.
+`update()`: Nos permite añadir elementos a un diccionario a partir de los elementos de otro diccionario.
 
 	>>> dict1 = {'one': 1, 'two': 2, 'three': 3}
 	>>> dict2 = {'four':4,'five':5}

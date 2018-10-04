@@ -24,7 +24,7 @@ El caracter `\n` es el retorno de carro (los siguientes caracteres se escriben e
 
 ### Variables
 
-Una variables es un identificador que referencia a un valor. Para que una variable referencie a un valor se utiliza el operador de asignación `=`.
+Una variables es un identificador que referencia a un valor. Para que una variable referencia a un valor se utiliza el operador de asignación `=`.
 
 El nombre de una variable, ha de empezar por una letra o por el carácter guión bajo, seguido de letras, números o guiones bajos. 
 	
@@ -74,7 +74,7 @@ La precedencia de operadores es la siguiente:
 
 En python existen muchos tipos de datos, nosotros en este curso vamos a trabajar con los siguientes:
 
-* Tipos númericos
+* Tipos numéricos
 	* Tipo entero (int)
 	* Tipo real (float)
 * Tipos booleanos (bool)
