@@ -45,7 +45,7 @@ Creemos dos objetos de cada clase y veamos los atributos y métodos que tienen d
 
 ## La función super()
 
-La función `super()` me proporciona una referencia a la clase base. Como vemos en ejemplo hemos reescrito algunos métodos: `__init()__`, `mostrar()` y `distancia()`. En alguno de ellos es necesario usar el método de la clase base, para acceder a esos métodos usams la función `super()`.
+La función `super()` me proporciona una referencia a la clase base. Como vemos en ejemplo hemos reescrito algunos métodos: `__init()__`, `mostrar()` y `distancia()`. En algunos de ellos es necesario usar el método de la clase base. Para acceder a esos métodos usamos la función `super()`.
 
 	...
 	def __init__(self,x=0,y=0,z=0):
