@@ -38,16 +38,24 @@ Creemos dos objetos de cada clase y veamos los atributos y métodos que tienen d
 
 	>>> p=punto(1,2)
 	>>> p3d=punto3d(1,2,3)
-
-## La función super()
-
-La función `super()` me proporciona una referencia a la clase base. Y podemos observar que hemos reescrito el método `distancia` y `mostrar`:
-
 	>>> p.distancia(punto(5,6))
 	5.656854249492381
 	>>> p3d.distancia(punto3d(2,3,4))
 	1.7320508075688772
 
+## La función super()
+
+La función `super()` me proporciona una referencia a la clase base. Como vemos en ejemplo hemos reescrito algunos métodos: `__init()__`, `mostrar()` y `distancia()`. En alguno de ellos es necesario usar el método de la clase base, para acceder a esos métodos usams la función `super()`.
+
+	...
+	def __init__(self,x=0,y=0,z=0):
+       	super().__init__(x,y)
+       	self.z=z
+	...
+	def mostrar(self):
+	       return super().mostrar()+":"+str(self.__z)
+	...
+	
 ## Delegación
 
 Llamamos delegación a la situación en la que una clase contiene (como atributos) una o más instancias de otra clase, a las que delegará parte de sus funcionalidades.
