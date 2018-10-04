@@ -36,7 +36,7 @@ Como resumen de las distintas posibilidades podemos indicar:
 
 * `cadena[start:end]` 	  # Elementos desde la posición start hasta end-1
 * `cadena[start:]`    	  # Elementos desde la posición start hasta el final
-* `cadena[:end]`      	  # Elementos desde el principio hata la posición end-1
+* `cadena[:end]`      	  # Elementos desde el principio hasta la posición end-1
 * `cadena[:]` 	 	  # Todos Los elementos	    
 * `cadena[start:end:step]` # Igual que el anterior pero dando step saltos.
 
