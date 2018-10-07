@@ -18,7 +18,7 @@
 
 7. [Datos y tipos de datos](curso/u7)
 8. [Tipos de datos numéricos y expresiones aritméticas](curso/u8)
-9. [Tipo de dato booleano](curso/u9)
+9. [Tipo de datos booleano y expresiones lógicas](curso/u9)
 10. [Trabajando con variables](curso/u10)
 11. [Entrada y salida estándar](curso/u11)
 12. [Introducción a las cadenas de caracteres](curso/u12)

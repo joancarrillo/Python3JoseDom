@@ -1,4 +1,4 @@
-# Tipo de datos booleano
+# Tipo de datos booleano y expresiones lógicas
 
 ## Tipo booleano
 
@@ -13,6 +13,20 @@ Cuando se evalúa una expresión, hay determinados valores que se interpretan co
 * Cualquier secuencia vacía ([], (), '')
 * Cualquier diccionario vacío ({})
 
+## Operadores de comparación
+
+Las expresiones lógicas utilizan operadores de comparación, me permiten comparar dos valores y devuelven un valor booleano, dependiendo de lo que este comparando.
+
+`== != >= > <= <`
+
+* `==`: Igual que
+* `!=`: Distinto que
+* `>`: Mayor que
+* `<`: Menor que
+* `<=`: Menor o igual
+* `>=`: Mayor o igual
+
+
 ## Operadores booleanos o lógicos
 
 Los operadores booleanos se utilizan para operar sobre expresiones booleanas y se suelen utilizar en las estructuras de control alternativas (if, while):
@@ -21,9 +35,9 @@ Los operadores booleanos se utilizan para operar sobre expresiones booleanas y s
 * `x and y`: Si x es falso entonces x, sino y. Este operados sólo evalúa el segundo argumento si el primero es True.
 * `not x`: Si x es falso entonces True, sino False.
 
-## Operadores de comparación
+## Ejemplos de expresiones lógicas
 
-Los operadores de comparación, me permiten comparar dos valores y devuelven un valor booleano, dependiendo de lo que este comparando.
-
-`== != >= > <= <`
+    a > 17
+    a > 1 and b < 10
+    a == b or b == c or a == c
 
