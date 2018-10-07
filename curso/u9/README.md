@@ -17,8 +17,6 @@ Cuando se evalúa una expresión, hay determinados valores que se interpretan co
 
 Las expresiones lógicas utilizan operadores de comparación, me permiten comparar dos valores y devuelven un valor booleano, dependiendo de lo que este comparando.
 
-`== != >= > <= <`
-
 * `==`: Igual que
 * `!=`: Distinto que
 * `>`: Mayor que
@@ -34,10 +32,4 @@ Los operadores booleanos se utilizan para operar sobre expresiones booleanas y s
 * `x or y`: Si x es falso entonces y, sino x. Este operados sólo evalúa el segundo argumento si el primero es False.
 * `x and y`: Si x es falso entonces x, sino y. Este operados sólo evalúa el segundo argumento si el primero es True.
 * `not x`: Si x es falso entonces True, sino False.
-
-## Ejemplos de expresiones lógicas
-
-    a > 17
-    a > 1 and b < 10
-    a == b or b == c or a == c
 

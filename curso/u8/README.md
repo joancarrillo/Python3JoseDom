@@ -1,4 +1,4 @@
-# Tipos de datos numéricos y expresiones aritméticas
+# Tipos de datos numéricos
 
 Python3 trabaja con varios tipos numéricos, pero en este curso sólo vamos a utilizar dos:
 
@@ -13,15 +13,6 @@ Python3 trabaja con varios tipos numéricos, pero en este curso sólo vamos a ut
 	>>> real = 7.2
 	>>> type (real)
 	<class 'float'
-
-## Expresiones
-
-Una expresión es una combinación de variables, literales, operadores, funciones y expresiones, que tras su evaluación o cálculo nos devuelven un valor de un determinado tipo. El resultado de una expresión aritmética es de tipo numérico.
-
-Veamos ejemplos de expresiones:
-
-	a + 7
-	(a ** 2) + b
 
 
 ## Operadores aritméticos
