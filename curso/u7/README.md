@@ -93,7 +93,8 @@ La función `type` nos devuelve el tipo de dato de un objeto dado. Por ejemplo:
 	<class 'int'>
 	>>> type(5.5)
 	<class 'float'>
+	>>> type("hola")
+	<class 'str'>
 	>>> type([1,2])
 	<class 'list'>
-	>>> type(int)
-	<class 'type'>
+	
