@@ -1,6 +1,6 @@
 # Curso: Introducción a la programación con Python3
 
-* [Introducción al curso](curso/u0)
+* [Introducción al curso](presentacion.pdf)
 
     ## Introducción a la programación
 
