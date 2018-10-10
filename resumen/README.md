@@ -62,7 +62,7 @@ Diapositivas 28-32
     import math
     math.sqrt(9)
     
-# U9: booleanos
+## U9: booleanos
 
 Diapositivas 33
 
@@ -75,7 +75,7 @@ Diapositivas 33
     a == b or b == c or a == c
 
 
-# U10: Variables
+## U10: Variables
 
 Diapositivas 34
 
@@ -118,6 +118,15 @@ Diapositivas 35
     print("El alumno %s tiene %d años, y su nota es %f" % (nombre,edad,nota))
 
 
+## U12: Introducción a las cadenas de caracteres
+## U13: Pseidocódigo a python
+## U14: Ejercicios secuenciales: 3,10,15,17,18
+## U15: Alternativas
+## U16: Ejercicios: 2,5,9,13
+## U17: repetitivas: while
+## U18: repetitivas: for
+## U19: Contadores, acumuladores,...
+## U20: ejercicios 1,3, 7 y 10, 11
 
 
 ## Píldoras
