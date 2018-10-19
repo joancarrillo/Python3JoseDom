@@ -16,11 +16,14 @@ ballrect = ball.get_rect()
 # Comenzamos el bucle del juego
 run=True
 while run:
-    pygame.time.delay(1)
+    # Espero un tiempo (milisegundos) para que la pelota no vaya muy rápida
+    pygame.time.delay(2)
     # Capturamos los eventos que se han producido
     for event in pygame.event.get():
         # Si el evento es salir de la ventana, terminamos
         if event.type == pygame.QUIT: run = False
+    # Muevo la pelota
+    ballrect = ballrect.move(speed)
     # Compruebo si la pelota llega a los límites de la ventana
     if ballrect.left < 0 or ballrect.right > width:
         speed[0] = -speed[0]
