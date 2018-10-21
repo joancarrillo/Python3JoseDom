@@ -36,7 +36,6 @@ while run:
     # Comprubo si ha colisión
     if baterect.colliderect(ballrect):
         speed[0] = -speed[0]
-        speed[1] = -speed[1]
     # Muevo la pelota
     ballrect = ballrect.move(speed)
     # Compruebo si la pelota llega a los límites de la ventana
