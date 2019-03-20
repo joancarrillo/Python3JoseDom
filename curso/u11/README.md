@@ -2,7 +2,7 @@
 
 ## Función input
 
-No permite leer por teclado información. Devuelve una cadena de caracteres y puede tener como argumento una cadena que se muestra en pantalla.
+Nos permite leer por teclado información. Devuelve una cadena de caracteres y puede tener como argumento una cadena que se muestra en pantalla.
 
 *Ejemplos*
 
@@ -17,7 +17,7 @@ No permite leer por teclado información. Devuelve una cadena de caracteres y pu
 	
 ## Función print
 
-No permite escribir en la salida estándar. Podemos indicar varios datos a imprimir, que por defecto serán separado por un espacio. Podemos también imprimir varias cadenas de texto utilizando la concatenación.
+Nos permite escribir en la salida estándar. Podemos indicar varios datos a imprimir, que por defecto serán separado por un espacio. Podemos también imprimir varias cadenas de texto utilizando la concatenación.
 
 *Ejemplos*
 
