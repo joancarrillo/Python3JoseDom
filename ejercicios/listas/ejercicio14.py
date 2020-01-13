@@ -10,8 +10,8 @@
 
 precios = []
 cantidades = []
-num_articulos = 5
-num_sucursales = 3
+num_articulos = 3
+num_sucursales = 2
 # Leer Precios
 for indice_art in range(0, num_articulos):
    precios.append(float(input('Ingrese Precio Articulo %d:' % (indice_art+1))))
@@ -42,13 +42,16 @@ print('Sucursal 1, Articulo 3: %d' % cantidades[0][2])
 
 # Guardo en una lista las recaudaciones de cada sucursal
 total_por_sucursal = []
-for precio,cant_sucursal in zip(precios,cantidades):
-    total_por_sucursal.append(sum(cant_sucursal) * precio)
+for cant_sucursal in cantidades:
+    total=0
+    for precio,cantidad in zip(precios,cant_sucursal):
+        total=total+precio*cantidad
+    total_por_sucursal.append(total)
 # Calculo el máximo que se ha vendido
 mayorrec = max(total_por_sucursal)   
 indice_sucursal = 1
-for cant_sucursal in cantidades:
-    print('Recaudaciones Sucursal %d: %f' % (indice_sucursal,sum(cant_sucursal)))
+for indice_sucursal in range(0, num_sucursales):
+    print('Recaudaciones Sucursal %d: %f' % (indice_sucursal,total_por_sucursal[indice_sucursal]))
     indice_sucursal += 1
 
 # Calculo la sucursal con mayor recaudación
